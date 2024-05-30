@@ -73,7 +73,7 @@ const Aboutus = () => {
               mollis.
             </p>
             <NavLink
-              className="block uppercase bg-[#5F3AFC] px-10 py-4 w-[25%] text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] "
+              className="block uppercase bg-[#5F3AFC] px-10 py-4 w-[50%] md:w-[27%] text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C]"
               to="#"
             >
               About Us

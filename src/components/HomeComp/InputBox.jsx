@@ -1,7 +1,6 @@
-
-
 const InputBox = () => {
   return (
+    // Input box
     <div className="md:absolute md:bottom-[-3rem] md:left-1/2 md:transform md:-translate-x-1/2 w-full md:w-[70%]">
       <div className="lg:flex bg-white  shadow-lg drop-shadow-xl flex-wrap gap-6 items-center justify-center lg:h-[16vh] p-6">
         <input

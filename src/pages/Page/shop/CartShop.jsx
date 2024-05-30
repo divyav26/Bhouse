@@ -29,7 +29,7 @@ const CartShop = () => {
         </div>
       </div>
 
-        <div className="container mx-auto px-[2rem] py-[2rem]">
+        <div className="container mx-auto px-[1rem] py-[2rem]">
             <div className='overflow-x-auto'>
                 <table className="min-w-full bg-white border border-gray-200">
                     <thead>

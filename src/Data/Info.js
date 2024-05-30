@@ -53,18 +53,18 @@ export const links = [
             { id: 2, name: "Services Details", link: "/servicesdetails"  }
           ] 
         },
-        { name: "Portfolio +", link: "/", children: [
+        { name: "Portfolio +", link: "", children: [
             { id: 1, name: "Portfolio",link: "/portfolio"  },
             { id: 2, name: "Portfolio Details",link: "/portfoliodetails"  }
           ] 
         },
-        { name: "Shop +", link: "/", children: [
+        { name: "Shop +", link: "", children: [
             { id: 1, name: "Cart",link: "/cart"  },
             { id: 2, name: "CheckOut",link: "/checkout"  },
-            { id: 3, name: "Wishlist",link: "/"  }
+            { id: 3, name: "Wishlist",link: "/whishlist"  }
           ] 
         },
-        { name: "User +", link: "/", children: [
+        { name: "User +", link: "", children: [
             { id: 1, name: "Login",link: "/signin"  },
             { id: 2, name: "Register",link: "/signup"  },
             { id: 3, name: "Forget Password",link: "/ForgetPassword"  },

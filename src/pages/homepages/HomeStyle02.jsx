@@ -80,7 +80,7 @@ const HomeStyle02 = () => {
       </div>
 
       {/* ABOUT US  */}
-      <div>
+      <div className="">
         <Aboutus />
       </div>
       {/* Building facilities */}

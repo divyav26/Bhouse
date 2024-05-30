@@ -33,6 +33,7 @@ import HomeStyle02 from "./pages/homepages/HomeStyle02";
 import HomeStyle03 from './pages/homepages/HomeStyle03';
 import HomeStyle04 from './pages/homepages/HomeStyle04';
 import HomeStyle05 from './pages/homepages/HomeStyle05';
+import Whishlist from "./pages/Page/shop/Whishlist";
 
 
 
@@ -117,6 +118,10 @@ function App() {
     {
       path:'/cart',
       element:<CartShop />
+    },
+    {
+      path:'/whishlist',
+      element:<Whishlist />
     },
     {
       path:'/faq',

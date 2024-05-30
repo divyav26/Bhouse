@@ -10,6 +10,7 @@ import { IoShieldCheckmark } from "react-icons/io5";
 import { BsFan } from "react-icons/bs";
 
 import contact from '../imgs/contact/banner.jpg'
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -21,13 +22,13 @@ const About = () => {
           <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
             <p className="text-3xl font-bold md:mb-6">About Us</p>
             <div className="flex gap-2">
-              <a href="/Home" className="text-lg ">
+              <NavLink to="/" className="text-lg ">
                 Home
-              </a>
+              </NavLink>
               <h1 className="text-bold text-2xl">&#xBB; </h1>
-              <a href="/About Us" className="text-lg ">
+              <NavLink to="/about" className="text-lg ">
                 About Us
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -240,24 +241,24 @@ const About = () => {
                 <p className="">Designer</p>
                 <div className="absolute inset-0 my-20 mt-6 mx-12 md:mx-16 bg-[#4c4c4e] bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full">
                   <div className="flex space-x-4">
-                    <a
-                      href="#"
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <FaFacebookF className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      href="#"
+                    </NavLink>
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <TiSocialTwitter className="fab fa-twitter" />
-                    </a>
-                    <a
-                      href="#"
+                    </NavLink>
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <CiInstagram className="fab fa-instagram" />
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -275,24 +276,24 @@ const About = () => {
                 <p className="">Designer</p>
                 <div className="absolute inset-0 my-20 mt-6 mx-12 md:mx-16  bg-[#4c4c4e] bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full">
                   <div className="flex space-x-4">
-                    <a
-                      href="#"
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <FaFacebookF className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      href="#"
+                    </NavLink>
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <TiSocialTwitter className="fab fa-twitter" />
-                    </a>
-                    <a
-                      href="#"
+                    </NavLink>
+                    <NavLink
+                      to="#"
                       className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
                     >
                       <CiInstagram className="fab fa-instagram" />
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>

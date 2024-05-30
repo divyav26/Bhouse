@@ -10,12 +10,12 @@ const ApartmentsPlan = () => {
 
   return (
     <div className="">
-      <div className="flex mb-4 border-2 border-custom-blue">
+      <div className="lg:flex grid grid-cols-2  mb-4 border-2 border-custom-blue">
       {['thestudio', 'deluxe', 'penthouse', 'topgarden', 'double height'].map(category => (
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`px-[3rem] py-2 ${selectedCategory === category ? 'bg-[#5f3afc] text-white border-2 border-custom-blue' : 'bg-gray-200 text-black border-2 border-custom-blue'}`}
+            className={`px-[3.5rem]  py-1 ${selectedCategory === category ? 'bg-[#5f3afc] text-white border-2 border-custom-blue' : 'bg-gray-200 text-black border-2 border-custom-blue'}`}
           >
             {category.charAt(0).toUpperCase() + category.slice(1).replace(' ', ' ')}
           </button>

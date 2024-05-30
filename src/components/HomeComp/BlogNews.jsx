@@ -17,7 +17,7 @@ const BlogNews = () => {
           </h1>
         </div>
         <div className="md:flex lg:flex md:gap-x-6">
-          <div className="md:w-1/3  md:pb-20">
+          <div className="md:w-1/3  md:pb-20 pb-6">
             <div className="bg-white border rounded">
               <div className="relative">
                 <img
@@ -54,7 +54,7 @@ const BlogNews = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3 md:pb-20">
+          <div className="md:w-1/3 md:pb-20 pb-6">
             <div className="bg-white border rounded">
               <div className="relative">
                 <img
@@ -91,7 +91,7 @@ const BlogNews = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3  md:pb-20">
+          <div className="md:w-1/3  md:pb-20 pb-6">
             <div className="bg-white border rounded">
               <div className="relative">
                 <img
