@@ -34,7 +34,7 @@ const SearchDropdown = () => {
       </div>
 
       <div>
-            <div className="relative inline-block text-left w-64" ref={dropdownRef}>
+            <div className="relative inline-block text-left w-64 z-10" ref={dropdownRef}>
             <button
                 type="button"
                 className="inline-flex justify-between w-full border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300"

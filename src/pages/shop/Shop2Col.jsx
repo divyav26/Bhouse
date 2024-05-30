@@ -11,31 +11,31 @@ const Shop2Col = () => {
   return (
     <Layout>
       <>
-      <div className="relative pb-[2rem]">
-       <div className="absolute inset-0 flex left-2 md:py-20 pt-1">
-          <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:px-8 mx-6 md:mx-3 ">
-            <p className="text-3xl font-bold md:mb-4">Shop 2 Column</p>
+      <div className="relative">
+       <div className="absolute lg:inset-0 flex left-2 md:py-16 pt-[1rem]">
+          <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
+            <p className="text-3xl font-bold md:mb-6">Shop 2 Col</p>
             <div className="flex gap-2">
               <NavLink to="/" className="text-lg ">
                 Home
               </NavLink>
               <h1 className="text-bold text-2xl">&#xBB; </h1>
               <NavLink to="/shop2col" className="text-lg ">
-              Shop
+                Shop 2 Col
               </NavLink>
             </div>
           </div>
         </div>
         <div className="w-full object-cover">
-          <img src={banner} alt="banner" className="w-full md:h-auto" />
+          <img src={banner} alt="banner" className="w-full md:h-auto h-[20vh]" />
         </div>
       </div>
 
-      <div className='px-[2rem] py-[2rem]'>
+      <div className='px-[1rem] py-[2rem]'>
         <SearchDropdown />
       </div>
 
-      <div className='px-[2rem]'>
+      <div className='px-[1rem]'>
       <div className="grid lg:grid-cols-2 grid-cols-1">
                         <div className="p-4 md:px-2">
                             <div className="bg-white border rounded">

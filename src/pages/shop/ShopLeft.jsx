@@ -32,7 +32,7 @@ const ShopLeft = () => {
         </div>
       </div>
 
-       <div className='lg:flex ;g:justify-between px-[2rem] py-[2rem] gap-[1rem]'>
+       <div className='lg:flex ;g:justify-between px-[1rem] py-[2rem] gap-[1rem]'>
            
             
             <div className='lg:w-[30%]'>

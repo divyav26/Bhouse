@@ -34,7 +34,7 @@ const Blogdetails = () => {
         </div>
       </div>
 
-      <div className='lg:flex ;g:justify-between px-[2rem] py-[3rem] gap-[1rem]'>
+      <div className='lg:flex ;g:justify-between px-[1rem] py-[3rem] gap-[1rem]'>
             <div className='lg:w-[70%]'>
             <div className="flex">
         <img src='https://preetheme.com/html/bhouse/assets/img/blog/1.jpg' alt="BD1" className="w-full" />
@@ -44,9 +44,9 @@ const Blogdetails = () => {
         <span className="ml-2 my-3 text-gray-600">12 September 2021</span>
 
         <FaTags className="text-[#5F3AFC] ml-10 my-4" />
-        <span className="ml-2 my-3 text-sky-600">Technology</span>
+        <span className="lg:ml-2 my-3 text-sky-600">Technology</span>
       </div>
-      <div className="px-10 w-full ">
+      <div className="lg:px-10 w-full ">
         <p className="text-[#0B2B3C] font-bold text-2xl">
           What’s the Holding Back the It Solution Industry?
         </p>
@@ -65,11 +65,11 @@ const Blogdetails = () => {
           five centuries.
         </p>
       </div>
-      <div className="mx-8 md:flex mt-4  ">
+      <div className="lg:mx-8 md:flex mt-4  ">
         <img src='https://preetheme.com/html/bhouse/assets/img/blog/2.jpg' alt="" className="md:w-1/2 p-2" />
         <img src='https://preetheme.com/html/bhouse/assets/img/blog/3.jpg' alt="" className="md:w-1/2 p-2" />
       </div>
-      <div className="px-10 w-full ">
+      <div className="lg:px-10 w-full ">
         <p className="pt-2 text-xs">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry’s standard dummy text ever
@@ -119,7 +119,7 @@ const Blogdetails = () => {
 
       <div className="p-2 pt-4 w-full border border-gray-200">
         <p className="text-[#0B2B3C] font-bold text-2xl">03 Comments</p>
-        <div className="flex items-start pt-4">
+        <div className="lg:flex items-start pt-4">
           <img src='https://preetheme.com/html/bhouse/assets/img/user-1.png' alt="" className="w-20 h-20 mr-4" />
           <div>
             <p className="font-bold">Jonathom Doe</p>
@@ -137,7 +137,7 @@ const Blogdetails = () => {
           </div>
         </div>
 
-        <div className="flex items-start pl-20 pt-6">
+        <div className="lg:flex items-start lg:pl-20 pt-6">
           <img src='https://preetheme.com/html/bhouse/assets/img/user-1.png' alt="" className="w-20 h-20 mr-4" />
           <div>
             <p className="font-bold">Jonathom Doe</p>
@@ -154,7 +154,7 @@ const Blogdetails = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-start pt-6">
+        <div className="lg:flex items-start pt-6">
           <img src='https://preetheme.com/html/bhouse/assets/img/user-1.png' alt="" className="w-20 h-20 mr-4" />
           <div>
             <p className="font-bold">Jonathom Doe</p>

@@ -9,6 +9,7 @@ import Testimonials from "../../components/HomeComp/Testimonials";
 import ImgBlog from "../../components/HomeComp/ImgBlog";
 import BlogNews from "../../components/HomeComp/BlogNews";
 import Aboutus from "../../components/HomeComp/Aboutus";
+import Area from '../../components/HomeComp/Area'
 
 
 
@@ -212,7 +213,7 @@ const HomeStyle02 = () => {
       </div>
       {/* AREA POPERTIES */}
       <div>
-        {/* <Area /> */}
+          <Area />
       </div>
       {/* Parallax */}
       <div>

@@ -1,4 +1,4 @@
-import contactus from "../imgs/contact/banner.jpg";
+
 import side from "../imgs/contact/bg.jpg";
 import { FaUser } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
@@ -7,33 +7,35 @@ import { GrNotes } from "react-icons/gr";
 import { HiPencil } from "react-icons/hi2";
 import { FaHome } from "react-icons/fa";
 import Layout from "../components/Layout";
+import { NavLink } from 'react-router-dom';
+import banner from '../imgs/banner.jpg'
 
 export default function Contact() {
   return (
     <Layout>
-      <div className="relative">
-        <div className="absolute inset-0 flex left-2 md:py-16 pt-1">
+     <div className="relative">
+       <div className="absolute lg:inset-0 flex left-2 md:py-16 pt-[1rem]">
           <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
-            <p className="text-3xl font-bold md:mb-6">Contact Us</p>
+            <p className="text-3xl font-bold md:mb-6">Contact us</p>
             <div className="flex gap-2">
-              <a href="/Home" className="text-lg ">
+              <NavLink to="/" className="text-lg ">
                 Home
-              </a>
+              </NavLink>
               <h1 className="text-bold text-2xl">&#xBB; </h1>
-              <a href="/About Us" className="text-lg ">
-                About Us
-              </a>
+              <NavLink to="/contact" className="text-lg ">
+              Contact us
+              </NavLink>
             </div>
           </div>
         </div>
         <div className="w-full object-cover">
-          <img src={contactus} alt="contactus" className="w-full md:h-auto" />
+          <img src={banner} alt="contactus" className="w-full md:h-auto h-[20vh]" />
         </div>
       </div>
       <h1 className="text-blue-950 text-2xl mt-20 px-[2rem] pb-4">
         <b>Get In Touch</b>
       </h1>
-      <div className="px-[2rem] pb-[4rem] md:flex md:justify-between md:w-full mx-4">
+      <div className="px-[1rem] pb-[4rem] md:flex md:justify-between md:w-full mx-4">
         <div className="md:flex-1">
           <div className="flex flex-col md:flex-row md:justify-between gap-4 mb-4">
             <div className="flex flex-col md:w-1/2 mb-4 md:mb-0">

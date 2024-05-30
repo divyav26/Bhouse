@@ -12,26 +12,26 @@ import banner from '../../imgs/banner.jpg'
 const Shop = () => {
   return (
     <Layout>
-        <div className="relative pb-[2rem]">
-       <div className="absolute inset-0 flex left-2 md:py-20 pt-1">
-          <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:px-8 mx-6 md:mx-3 ">
-            <p className="text-3xl font-bold md:mb-4">Shop</p>
+         <div className="relative">
+       <div className="absolute lg:inset-0 flex left-2 md:py-16 pt-[1rem]">
+          <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
+            <p className="text-3xl font-bold md:mb-6">Shop</p>
             <div className="flex gap-2">
               <NavLink to="/" className="text-lg ">
                 Home
               </NavLink>
               <h1 className="text-bold text-2xl">&#xBB; </h1>
-              <NavLink to="/shop" className="text-lg ">
-              Shop
+              <NavLink to="/about" className="text-lg ">
+                About Us
               </NavLink>
             </div>
           </div>
         </div>
         <div className="w-full object-cover">
-          <img src={banner} alt="banner" className="w-full md:h-auto" />
+          <img src={banner} alt="banner" className="w-full md:h-auto h-[20vh]" />
         </div>
       </div>
-        <div className='lg:flex ;g:justify-between px-[2rem] py-[2rem] gap-[1rem]'>
+        <div className='lg:flex ;g:justify-between px-[1rem] py-[2rem] gap-[1rem]'>
             <div className='lg:w-[70%]'>
                <div>
                     <SearchDropdown />
