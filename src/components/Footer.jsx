@@ -41,14 +41,14 @@ const Footer = () => {
             }
         </div>
 
-        <div className='relative w-full'>
+        <div className='relative w-full lg:py-0 py-[2rem]'>
             <h1 className='font-bold'>Newsletter</h1>
             <hr />
            
             <p className='text-gray-200 text-sm py-2'>Subscribe to our weekly Newsletter and receive updates via email.</p>
 
             <input type='Enter Your Email' className='absolute px-4 text-sm py-2 w-full border-none bg-transparent rounded-md' placeholder='Enter Your Email' />
-            <IoIosSend className="absolute right-3 top-[7.5rem] text-white bg-[#5F3AFC] transform -translate-y-1/2 w-6 h-6" />
+            <IoIosSend className="absolute right-3 lg:top-[7.5rem] lg:bottom-0 top-[7.5rem] text-white bg-[#5F3AFC] transform -translate-y-1/2 w-6 h-6" />
         </div>
     </div>
     <div className='bg-[#092635] py-[2rem] text-center text-white font-bold'>

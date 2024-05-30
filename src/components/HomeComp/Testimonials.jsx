@@ -18,10 +18,10 @@ const Testimonials = () => {
         <div className="flex flex-col lg:flex-row gap-10 p-2 md:p-5 lg:px-[2rem] lg:py-20">
           <div className="w-full lg:w-[50%] bg-white p-8">
             {" "}
-            <div className="flex gap-4">
+            <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
-                className="w-40 h-40"
+                className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
               />
               <div className="relative flex flex-col">
                 <div className="flex flex-col">
@@ -46,10 +46,10 @@ const Testimonials = () => {
           </div>
           <div className="w-full lg:w-[50%] bg-white p-8">
             {" "}
-            <div className="flex gap-4">
+            <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
-                className="w-40 h-40"
+                className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
               />
               <div className="relative flex flex-col">
                 <div className="flex flex-col">

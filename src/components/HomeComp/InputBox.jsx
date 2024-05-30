@@ -2,8 +2,8 @@
 
 const InputBox = () => {
   return (
-    <div className="absolute bottom-[-3rem] left-1/2 transform -translate-x-1/2 w-full lg:w-[100%] px-[2rem] mt-[2rem]">
-      <div className="lg:flex bg-white  shadow-lg drop-shadow-xl flex-wrap gap-6 items-center justify-center h-[16vh]">
+    <div className="md:absolute md:bottom-[-3rem] md:left-1/2 md:transform md:-translate-x-1/2 w-full md:w-[70%]">
+      <div className="lg:flex bg-white  shadow-lg drop-shadow-xl flex-wrap gap-6 items-center justify-center lg:h-[16vh] p-6">
         <input
           type="text"
           placeholder="Name"
