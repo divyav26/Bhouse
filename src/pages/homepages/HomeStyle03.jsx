@@ -33,7 +33,7 @@ const HomeStyle03 = () => {
             <FaHouseChimney />
             Real Estate Agency
           </span>
-          <p className="text-white text-5xl font-bold text-center">
+          <p className="text-white md:text-5xl font-bold text-center">
             FIND YOUR AMAZING REAL <br /> HOUSE BUY US
           </p>
         </div>
@@ -42,7 +42,7 @@ const HomeStyle03 = () => {
         </div>
       </div>
       {/* Property By Categories */}
-      <div className="md:px-[2rem] md:pt-32  p-2 py-10">
+      <div className="md:px-[2rem] md:pt-32 p-2 py-72 md:py-0">
         <div className="flex flex-col items-center justify-center">
           <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
             <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
@@ -53,19 +53,19 @@ const HomeStyle03 = () => {
             Property By Categories
           </p>
         </div>
-        <div className="flex gap-6 md:mt-10">
-          <div className="w-[67%] relative">
+        <div className="flex flex-col md:flex-row gap-6 md:mt-10">
+          <div className="md:w-[67%] w-full relative">
             <img
               src={home1}
               alt="property"
               className="h-[40vh] w-full contrast-50"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-white text-xl font-bold flex gap-2 items-center">
+              <span className="text-white md:text-xl font-bold flex gap-2 items-center">
                 <FaHouseChimney />
                 4BHK apartment is available for sale
               </span>
-              <p className="text-white text-2xl font-bold text-center">
+              <p className="text-white md:text-2xl font-bold text-center">
                 Location Bandra west. Carpet Area 2000sqft .
               </p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
@@ -73,14 +73,14 @@ const HomeStyle03 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[33%] relative">
+          <div className="md:w-[33%] w-full relative">
             <img
               src={home3}
               alt="property"
               className="h-[40vh] w-full contrast-100"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p className="text-white text-2xl font-bold text-center">
+              <p className="text-white md:text-2xl font-bold text-center">
                 Bedroom
               </p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
@@ -97,7 +97,7 @@ const HomeStyle03 = () => {
               className="h-[40vh] w-full contrast-100"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p className="text-white text-2xl font-bold text-center">
+              <p className="text-white md:text-2xl font-bold text-center">
                 Kitchen
               </p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
@@ -112,7 +112,7 @@ const HomeStyle03 = () => {
               className="h-[40vh] w-full contrast-50"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p className="text-white text-2xl font-bold text-center">Hall</p>
+              <p className="text-white md:text-2xl font-bold text-center">Hall</p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
                 13Listing
               </button>
@@ -125,7 +125,9 @@ const HomeStyle03 = () => {
               className="h-[40vh] w-full contrast-100"
             />{" "}
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p className="text-white text-2xl font-bold text-center">Balcony</p>
+              <p className="text-white text-2xl font-bold text-center">
+                Balcony
+              </p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
                 13Listing
               </button>
