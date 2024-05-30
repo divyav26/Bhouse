@@ -13,6 +13,7 @@ import ImgBlog from "../../components/HomeComp/ImgBlog";
 import man from '../../imgs/home/man.png'
 import home from '../../imgs/home/home.png'
 import storage from '../../imgs/home/storage.png'
+import Area from "../../components/HomeComp/Area";
 
 
 const HomeStyle05 = () => {
@@ -147,7 +148,7 @@ const HomeStyle05 = () => {
       <div>
         <ApartmentsPlan />
       </div>
-      {/* AREA POPERTIES */}
+      <Area />
       <div>
 
       </div>
