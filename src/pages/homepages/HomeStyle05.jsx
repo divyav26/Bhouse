@@ -1,6 +1,5 @@
 import { FaHouseChimney } from "react-icons/fa6";
 import Layout from "../../components/Layout";
-import Aboutus from "../../components/HomeComp/Aboutus";
 import Services from "../../components/HomeComp/Services";
 import Counter from "../../components/HomeComp/Counter";
 import Property from "../../components/HomeComp/Property";
