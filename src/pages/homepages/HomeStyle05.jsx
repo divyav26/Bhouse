@@ -23,10 +23,10 @@ const HomeStyle05 = () => {
         <img
           src="https://hips.hearstapps.com/hmg-prod/images/hbx030124tomscheerer-003-65f3148d6d76e.jpg"
           alt="back"
-          className="h-[75vh] w-full contrast-50"
+          className="lg:h-[75vh] w-full contrast-50"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <p className="text-white text-5xl font-black text-center md:mt-5">
+          <p className="text-white lg:text-5xl text-2xl font-black text-center md:mt-5">
             FIND YOUR PERFECT HOME
           </p>
           <div className="flex gap-6 py-6">
@@ -75,9 +75,9 @@ const HomeStyle05 = () => {
       </div>
       {/* ABOUT US  */}
       <div>
-      <div className="md:px-[2rem] p-2 py-10">
+      <div className="md:px-[2rem] px-[1rem] py-10">
         <div className="flex flex-col lg:flex-row gap-5">
-          <div>
+          <div className="pt-[6rem]">
             <img
               src="https://preetheme.com/html/bhouse/assets/img/about3.png"
               alt="about"
@@ -132,7 +132,7 @@ const HomeStyle05 = () => {
       </div>
       </div>
       {/* Our Services */}
-      <div>
+      <div className="py-[2rem]">
         <Services />
       </div>
       {/* Counting */}
@@ -140,7 +140,7 @@ const HomeStyle05 = () => {
         <Counter />
       </div>
       {/* PROPERTY */}
-      <div>
+      <div className="py-[2rem]">
         <Property />
       </div>
       {/* APARTMENTS SKETCH */}
@@ -156,7 +156,7 @@ const HomeStyle05 = () => {
         <ParallaxComponent />
       </div>
       {/* OUR CATEGORY */}
-      <div>
+      <div className="py-[2rem]">
         <OurCategory />
       </div>
       {/* OUR TESTIMONIAL */}
@@ -164,7 +164,7 @@ const HomeStyle05 = () => {
         <Testimonials />
       </div>
       {/* BLOG & NEWS */}
-      <div>
+      <div className="py-[2rem]">
         <BlogNews />
       </div>
       {/* Img blog */}

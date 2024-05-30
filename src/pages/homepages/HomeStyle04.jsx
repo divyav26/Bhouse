@@ -35,14 +35,14 @@ const HomeStyle04 = () => {
             <FaHouseChimney />
             Real Estate Agency
           </span>
-          <p className="text-white text-5xl font-black text-center">
+          <p className="text-white lg:text-5xl text-2xl font-black text-center">
             FIND YOUR AMAZING REAL <br />HOUSE
             BUY US
           </p>
         </div>
       </div>
       {/* About Us 1 */}
-      <div>
+      <div className="py-[2rem] px-[1rem]">
         <Aboutus />
       </div>
       {/* Counting */}
@@ -57,7 +57,7 @@ const HomeStyle04 = () => {
             <img
               src="https://preetheme.com/html/bhouse/assets/img/about3.png"
               alt="about"
-              className="h-[100vh]"
+              className="lg:h-[100vh]"
             />
           </div>
           <div className="flex flex-col">
@@ -108,7 +108,7 @@ const HomeStyle04 = () => {
       </div>
       </div>
       {/* Our Services */}
-      <div>
+      <div className="py-[2rem]">
         <Services />
       </div>
       {/* PROPERTY */}
@@ -124,7 +124,7 @@ const HomeStyle04 = () => {
         <ParallaxComponent />
       </div>
       {/* OUR CATEGORY */}
-      <div>
+      <div className="py-[2rem]">
         <OurCategory />
       </div>
       {/* OUR TESTIMONIAL */}
@@ -132,7 +132,7 @@ const HomeStyle04 = () => {
         <Testimonials />
       </div>
       {/* BLOG & NEWS */}
-      <div>
+      <div className="px-[1rem] py-[2rem]">
         <BlogNews />
       </div>
       {/* Img blog */}

@@ -42,7 +42,7 @@ const HomeStyle03 = () => {
         </div>
       </div>
       {/* Property By Categories */}
-      <div className="md:px-[2rem] md:pt-32 p-2 py-72 md:py-0">
+      <div className="md:px-[2rem] md:pt-32 p-2 pt-72 pb-[2rem] md:py-0">
         <div className="flex flex-col items-center justify-center">
           <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
             <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
@@ -136,11 +136,11 @@ const HomeStyle03 = () => {
         </div>
       </div>
       {/* ABOUT US */}
-      <div>
+      <div className="px-[1rem]">
         <Aboutus />
       </div>
       {/* FEATURES */}
-      <div className="md:px-[2rem] p-2 py-10">
+      <div className="md:px-[2rem] px-[1rem] p-2 py-10">
         <div className="flex flex-col items-center justify-center">
           <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
             <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
@@ -206,7 +206,7 @@ const HomeStyle03 = () => {
         />
       </div>
       {/* PROPERTY */}
-      <div>
+      <div className="py-[2rem]">
         <Property />
       </div>
       {/* Parallax */}
@@ -214,7 +214,7 @@ const HomeStyle03 = () => {
         <ParallaxComponent />
       </div>
       {/* OUR CATEGORY */}
-      <div>
+      <div className="py-[2rem]">
         <OurCategory />
       </div>
       {/* OUR TESTIMONIAL */}
@@ -222,7 +222,7 @@ const HomeStyle03 = () => {
         <Testimonials />
       </div>
       {/* BLOG & NEWS */}
-      <div>
+      <div className="py-[2rem] px-[1rem]">
         <BlogNews />
       </div>
       {/* Img blog */}
