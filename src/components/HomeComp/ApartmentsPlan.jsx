@@ -9,7 +9,7 @@ const ApartmentsPlan = () => {
       : apartments;
 
   return (
-    <div className="container p-4">
+    <div className="">
       <div className="flex mb-4 border-2 border-custom-blue">
       {['thestudio', 'deluxe', 'penthouse', 'topgarden', 'double height'].map(category => (
           <button

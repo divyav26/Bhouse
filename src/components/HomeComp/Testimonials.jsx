@@ -21,6 +21,7 @@ const Testimonials = () => {
             <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
+                alt=''
                 className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
               />
               <div className="relative flex flex-col">
@@ -49,6 +50,7 @@ const Testimonials = () => {
             <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
+                alt=''
                 className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
               />
               <div className="relative flex flex-col">

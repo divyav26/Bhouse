@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
-import { IoHomeOutline } from "react-icons/io5";
-import { MdOutlinePhotoCameraBack } from "react-icons/md";
-import { MdOutlineSecurity } from "react-icons/md";
-import { IoMdFootball } from "react-icons/io";
 import InputBox from '../components/HomeComp/InputBox'
-import { RiAdminFill } from "react-icons/ri";
-import { FaTags } from "react-icons/fa";
 import Layout from "../components/Layout";
-import comments from '../imgs/home/Comments.jpg'
 import ApartmentsPlan from "../components/HomeComp/ApartmentsPlan";
 import Counter from "../components/HomeComp/Counter";
 import OurCategory from "../components/HomeComp/OurCategory";
@@ -17,6 +10,7 @@ import ParallaxComponent from "../components/HomeComp/ParallaxComponent";
 import BlogNews from "../components/HomeComp/BlogNews";
 import Aboutus from "../components/HomeComp/Aboutus";
 import Testimonials from "../components/HomeComp/Testimonials";
+import { NavLink } from "react-router-dom";
 
 
 const Home = () => {
@@ -80,18 +74,18 @@ const Home = () => {
                 Nesciunt illo tenetur fuga ducimus numquam ea!
               </p>
               <div className={`flex gap-x-4 ${animationClass}`}>
-                <a
+                <NavLink
                   className="block w-full uppercase bg-[#5F3AFC] px-10 py-3 text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] sm:w-auto"
-                  href="#"
+                  to=''
                 >
                   About Us
-                </a>
-                <a
+                </NavLink>
+                <NavLink
                   className="block w-full uppercase px-10 py-3 text-sm font-medium text-white bg-[#0B2B3C] shadow hover:bg-[#5F3AFC] focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-                  href="#"
+                  to="#"
                 >
                   Our services
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

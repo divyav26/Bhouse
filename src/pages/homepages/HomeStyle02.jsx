@@ -84,8 +84,8 @@ const HomeStyle02 = () => {
         <Aboutus />
       </div>
       {/* Building facilities */}
-      <div className="flex w-full">
-        <div className="bg-[#5F3AFC] w-[50%] md:px-[2rem] lg:pr-12 py-20">
+      <div className="lg:flex w-full lg:pt-0 pt-[2rem]">
+        <div className="bg-[#5F3AFC] lg:w-[50%] md:px-[2rem] lg:pr-12 lg:py-20 py-10 ">
           <div className="px-3 py-1 border-b-8 border-l-8 border-white w-36 half-top-border1 ">
             <h2 className="text-sm md:text-xl text-white mt-2 font-bold">
               ABOUT US
@@ -116,11 +116,11 @@ const HomeStyle02 = () => {
             </ul>
           </div>
         </div>
-        <div className="w-[50%]">
+        <div className="lg:w-[50%]">
           <img
             src="https://www.homelane.com/blog/wp-content/uploads/2022/10/minimalist-slanting-wooden-dining-room-ceiling-design-768x512.jpg"
             alt="about"
-            className="h-[100vh] w-full"
+            className="lg:h-[100vh] w-full"
           />
         </div>
       </div>
@@ -203,7 +203,7 @@ const HomeStyle02 = () => {
         <Counter />
       </div>
       {/* PROPERTY */}
-      <div>
+      <div className="py-[2rem]">
         <Property />
       </div>
       {/* APARTMENTS SKETCH */}
@@ -219,7 +219,7 @@ const HomeStyle02 = () => {
         <ParallaxComponent />
       </div>
       {/* OUR CATEGORY */}
-      <div>
+      <div className="py-[2rem]">
         <BlogNews />
       </div>
       {/* OUR TESTIMONIAL */}
