@@ -27,7 +27,7 @@ const ApartmentsPlan = () => {
         
           <div className='lg:flex lg:justify-between'>
            
-           <div className='lg:w-[50%] bg-[#5f3afc] text-white px-2 h-[70vh]'>
+           <div className='lg:w-[50%] bg-[#5f3afc] text-white px-2 lg:h-[70vh]'>
                 <div>
                     <h2 className="text-xl font-bold mb-1 py-1">{apartment.heading}</h2>
                     <p className="mb-2 py-1 text-sm">{apartment.para}</p>
@@ -39,7 +39,7 @@ const ApartmentsPlan = () => {
                 <p className='flex justify-between border-dotted border-b py-2'><strong>{apartment.lou}:</strong> {apartment.sq3}</p>
            </div>
             <div className='lg:w-[50%] '>
-                <img src={apartment.img} alt={apartment.heading} className="w-full object-cover mb-4 h-[70vh]" />
+                <img src={apartment.img} alt={apartment.heading} className="w-full object-cover mb-4 lg:h-[70vh]" />
             </div>
           </div>
         ))}

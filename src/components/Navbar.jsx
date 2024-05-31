@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
 
             <div className='bg-black text-white flex justify-between items-center px-[2rem] py-2'> 
-                <div className='flex md:justify-between gap-[1rem] text-sm'>
+                <div className='lg:flex lg:justify-between gap-[1rem] text-sm'>
                     <p className='flex items-center gap-2'><MdOutlineMailOutline className='text-blue-500' />aaradhyaproperties3@gmail.com</p>
                     <p className='flex items-center gap-2'><FaPhoneAlt className='text-blue-500' />+91 84540 50179</p>
                 </div>
