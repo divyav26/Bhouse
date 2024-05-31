@@ -34,6 +34,7 @@ import HomeStyle03 from './pages/homepages/HomeStyle03';
 import HomeStyle04 from './pages/homepages/HomeStyle04';
 import HomeStyle05 from './pages/homepages/HomeStyle05';
 import Whishlist from "./pages/Page/shop/Whishlist";
+import PricingPlane from "./pages/Page/PricePlane/PricingPlane";
 
 
 
@@ -88,6 +89,11 @@ function App() {
       element: <About/>,
     },
       // pages 
+
+      {
+        path:"/pricing",
+        element:<PricingPlane />
+      },
     {
       path: "/team1",
       element: <Teamstyle1/>,

@@ -40,3 +40,32 @@
   .custom-color {
     color: #5f3afc;
   }
+
+  /* Services Card Hover*/
+.hover-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-line-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #5f3afc;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-card:hover .border-line-container::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Featured Property */
+.group:hover .absolute {
+  opacity: 1;
+}

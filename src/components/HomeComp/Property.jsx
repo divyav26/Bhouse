@@ -2,6 +2,10 @@ import React from 'react'
 import { IoMdBed } from "react-icons/io";
 import { FaBath } from "react-icons/fa";
 import { PiSquaresFour } from "react-icons/pi";
+import { LuEye } from "react-icons/lu";
+import { FaRegHeart } from "react-icons/fa";
+import { IoCartOutline } from "react-icons/io5";
+
 
 const Property = () => {
   return (
@@ -21,12 +25,28 @@ const Property = () => {
         <div className="md:flex md:flex-wrap">
           <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
             <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/product/1.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
+              <div className="relative group">
+              <div className="relative overflow-hidden">
+                  <img
+                    src="https://preetheme.com/html/bhouse/assets/img/product/1.jpg"
+                    alt="contactus"
+                    className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <div className="flex space-x-4">
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="absolute top-6 left-4">
                   <span className="bg-[#5f3afc] text-white font-bold text-sm px-5 py-2 rounded-tl-extraLarge rounded-br-extraLarge">
                     FEATURED
@@ -76,12 +96,27 @@ const Property = () => {
           </div>
           <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
             <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/product/2.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
+              <div className="relative group">
+              <div className="relative overflow-hidden">
+                  <img
+                    src="https://preetheme.com/html/bhouse/assets/img/product/2.jpg"
+                    alt="contactus"
+                    className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <div className="flex space-x-4">
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="absolute top-6 left-4">
                   <span className="bg-[#5f3afc] text-white font-bold text-sm px-5 py-2 rounded-tl-extraLarge rounded-br-extraLarge">
                     FEATURED
@@ -131,12 +166,27 @@ const Property = () => {
           </div>
           <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
             <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/product/3.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
+              <div className="relative group">
+              <div className="relative overflow-hidden">
+                  <img
+                    src="https://preetheme.com/html/bhouse/assets/img/product/3.jpg"
+                    alt="contactus"
+                    className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <div className="flex space-x-4">
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500" />
+                      </div>
+                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="absolute top-6 left-4">
                   <span className="bg-[#5f3afc] text-white font-bold text-sm px-5 py-2 rounded-tl-extraLarge rounded-br-extraLarge">
                     FEATURED

@@ -8,7 +8,7 @@ module.exports = {
       },
       borderRadius: {
         extraLarge: '4rem'
-      }
+      },
     },
   },
   plugins: [],

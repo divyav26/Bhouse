@@ -15,7 +15,7 @@ const ApartmentsPlan = () => {
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`px-[3.5rem]  py-1 ${selectedCategory === category ? 'bg-[#5f3afc] text-white border-2 border-custom-blue' : 'bg-gray-200 text-black border-2 border-custom-blue'}`}
+            className={`px-[3.5rem]  py-1 ${selectedCategory === category ? 'bg-[#5f3afc] text-white  border-2 border-custom-blue' : 'bg-gray-200 text-black border-2 border-custom-blue'}`}
           >
             {category.charAt(0).toUpperCase() + category.slice(1).replace(' ', ' ')}
           </button>
@@ -25,7 +25,7 @@ const ApartmentsPlan = () => {
       <div className="py-[1rem]">
         {filteredApartments.map(apartment => (
         
-          <div className='lg:flex lg:justify-between animate-slide-up'>
+          <div className='lg:flex lg:justify-between'>
            
            <div className='lg:w-[50%] bg-[#5f3afc] text-white px-2 h-[70vh]'>
                 <div>

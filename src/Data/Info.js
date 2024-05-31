@@ -42,13 +42,13 @@ export const links = [
       title: 'Page +',
       path: '/',
       sublink: [
-        { name: "Team +", link: "/", children: [
+        { name: "Team +", link: "", children: [
             { id: 1, name: "Team Style 1", link: "/team1"  },
             { id: 2, name: "Team Style 2", link: "/team2"  }
           ] 
         },
-        { name: "Pricing Plane", link: "/" },
-        { name: "Services +", link: "/", children: [
+        { name: "Pricing Plane", link: "/pricing" },
+        { name: "Services +", link: "", children: [
             { id: 1, name: "Services", link: "/services" },
             { id: 2, name: "Services Details", link: "/servicesdetails"  }
           ] 

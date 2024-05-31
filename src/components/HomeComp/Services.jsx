@@ -15,9 +15,9 @@ const Services = () => {
               Our Main Focus
             </h1>
           </div>
-          <div className="w-full md:flex md:gap-3 md:px-[2rem] lg:px-[2rem]">
+          <div className="w-full md:flex md:gap-3 md:px-[2rem]">
             <div className="md:w-1/3 p-4 md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
+              <div className="bg-white text-center p-8 rounded hover-card transform transition-transform duration-300 hover:-translate-y-2">
                 <img
                   src="https://preetheme.com/html/bhouse/assets/img/1.png"
                   alt="contactus"
@@ -30,45 +30,46 @@ const Services = () => {
                   Arose mr rapid in so vexed words. Gay welcome led add to
                   lasting chiefly say to looking for better.
                 </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
+                <div className="border-line-container">
                   <p className="text-light">Get Now &rarr;</p>
                 </div>
               </div>
             </div>
-            <div className="md:w-1/3 p-4  md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
+
+            <div className="md:w-1/3 p-4 md:pb-20">
+              <div className="bg-white text-center p-8 rounded hover-card transform transition-transform duration-300 hover:-translate-y-2">
                 <img
-                  src="https://preetheme.com/html/bhouse/assets/img/2.png"
+                  src="https://preetheme.com/html/bhouse/assets/img/1.png"
                   alt="contactus"
                   className="mx-auto mb-4 w-14 md:w-1/3"
                 />
                 <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                  Sell A Home
+                  Buy A Home
                 </p>
                 <p className="text-sm md:mb-6 mb-4">
                   Arose mr rapid in so vexed words. Gay welcome led add to
                   lasting chiefly say to looking for better.
                 </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
+                <div className="border-line-container">
                   <p className="text-light">Get Now &rarr;</p>
                 </div>
               </div>
             </div>
             <div className="md:w-1/3 p-4 md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
+              <div className="bg-white text-center p-8 rounded hover-card transform transition-transform duration-300 hover:-translate-y-2">
                 <img
-                  src="https://preetheme.com/html/bhouse/assets/img/3.png"
+                  src="https://preetheme.com/html/bhouse/assets/img/1.png"
                   alt="contactus"
                   className="mx-auto mb-4 w-14 md:w-1/3"
                 />
                 <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                  Rent A Home
+                  Buy A Home
                 </p>
                 <p className="text-sm md:mb-6 mb-4">
                   Arose mr rapid in so vexed words. Gay welcome led add to
                   lasting chiefly say to looking for better.
                 </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
+                <div className="border-line-container">
                   <p className="text-light">Get Now &rarr;</p>
                 </div>
               </div>
