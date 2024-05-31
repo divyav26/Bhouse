@@ -181,7 +181,7 @@ const Home = () => {
       </div>
 
       {/* our category  */}
-      <div className="py-[2rem]">
+      <div className="py-[2rem] px-[2rem]">
           <OurCategory />
       </div>
 
