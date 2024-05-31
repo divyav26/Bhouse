@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Dropdown from '../Faq/Dropdown'
 import Layout from "../../../components/Layout";
+import { NavLink } from "react-router-dom";
+import banner from '../../../imgs/banner.jpg'
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -48,6 +50,25 @@ const FAQ = () => {
   ];
     return (
       <Layout>
+         <div className="relative">
+       <div className="absolute lg:inset-0 flex left-2 md:py-16 pt-[1rem]">
+          <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
+            <p className="text-3xl font-bold md:mb-6">Frequently Asked Questions</p>
+            <div className="flex gap-2">
+              <NavLink to="/" className="text-lg ">
+                Home
+              </NavLink>
+              <h1 className="text-bold text-2xl">&#xBB; </h1>
+              <NavLink to="/faq" className="text-lg ">
+                Faq
+              </NavLink>
+            </div>
+          </div>
+        </div>
+        <div className="w-full object-cover">
+          <img src={banner} alt="banner" className="w-full md:h-auto h-[20vh]" />
+        </div>
+      </div>
         <section className="mx-auto py-10 px-2 lg:px-[2rem]">
           <div className="flex flex-col items-center justify-center mb-10">
             <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-30 half-top-border ">

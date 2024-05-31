@@ -38,7 +38,7 @@ const Home = () => {
     <Layout>
       {/* Animation */}
       <div
-        className="relative bg-[#EDF5F8] h-auto md:h-[71vh] p-2 md:px-[2rem] lg:px-36 mx-auto"
+        className="relative bg-[#EDF5F8] h-auto md:h-[71vh] p-2 md:px-[2rem] mx-auto"
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
@@ -191,7 +191,7 @@ const Home = () => {
       <Testimonials />
      </div>
       {/* Blog & News */}
-      <div className="px-[1rem]">
+      <div className="px-[1rem] py-[2rem]">
         <BlogNews />
       </div>
 

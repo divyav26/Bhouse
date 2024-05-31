@@ -202,7 +202,7 @@ const HomeStyle03 = () => {
         </div>
         <img
           src="https://preetheme.com/html/bhouse/assets/img/call.png"
-          alt="Call Image"
+          alt="CallImage"
           className="absolute bottom-0 right-8 h-[50vh] max-h-full"
         />
       </div>

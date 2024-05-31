@@ -22,7 +22,7 @@ const Testimonials = () => {
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
                 alt=''
-                className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
+                className="lg:w-40 lg:h-40 w-80 lg:pb-0 pb-4 object-cover object-center"
               />
               <div className="relative flex flex-col">
                 <div className="flex flex-col">
@@ -51,7 +51,7 @@ const Testimonials = () => {
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
                 alt=''
-                className="lg:w-40 h-40 w-80 lg:pb-0 pb-4"
+                className="lg:w-40 lg:h-40 w-80 lg:pb-0 pb-4 object-cover object-center"
               />
               <div className="relative flex flex-col">
                 <div className="flex flex-col">

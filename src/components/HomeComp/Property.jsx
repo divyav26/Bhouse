@@ -34,14 +34,14 @@ const Property = () => {
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <div className="flex space-x-4">
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500 hover:text-white"  />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <FaRegHeart className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500 hover:text-white" />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <IoCartOutline className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500 hover:text-white" />
                       </div>
                     </div>
                   </div>
@@ -104,15 +104,15 @@ const Property = () => {
                     className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <div className="flex space-x-4">
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500" />
+                  <div className="flex space-x-4">
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500 hover:text-white"  />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <FaRegHeart className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500 hover:text-white" />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <IoCartOutline className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500 hover:text-white" />
                       </div>
                     </div>
                   </div>
@@ -174,15 +174,15 @@ const Property = () => {
                     className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <div className="flex space-x-4">
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500" />
+                  <div className="flex space-x-4">
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <LuEye className="text-gray-500 hover:text-white"  />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <FaRegHeart className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <FaRegHeart className="text-gray-500 hover:text-white" />
                       </div>
-                      <div className="icon bg-white rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <IoCartOutline className="text-gray-500" />
+                      <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
+                        <IoCartOutline className="text-gray-500 hover:text-white" />
                       </div>
                     </div>
                   </div>

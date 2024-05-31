@@ -14,6 +14,8 @@ import Counter from "../../components/HomeComp/Counter";
 import OurCategory from "../../components/HomeComp/OurCategory";
 import ImgBlog from "../../components/HomeComp/ImgBlog";
 import Property from "../../components/HomeComp/Property";
+import Services from "../../components/HomeComp/Services";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -78,18 +80,18 @@ const HomeStyle01 = () => {
                 Nesciunt illo tenetur fuga ducimus numquam ea!
               </p>
               <div className={`flex gap-x-4 ${animationClass}`}>
-                <a
+                <NavLink
                   className="block w-full uppercase bg-[#5F3AFC] px-10 py-3 text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] sm:w-auto"
-                  href="#"
+                  to="#"
                 >
                   About Us
-                </a>
-                <a
+                </NavLink>
+                <NavLink
                   className="block w-full uppercase px-10 py-3 text-sm font-medium text-white bg-[#0B2B3C] shadow hover:bg-[#5F3AFC] focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-                  href="#"
+                  to="#"
                 >
                   Our services
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -163,12 +165,12 @@ const HomeStyle01 = () => {
               blandit accumsan. Suspendisse elementum sit amet tortor eget
               mollis.
             </p>
-            <a
+            <NavLink
               className="block uppercase bg-[#5F3AFC] px-10 py-4 w-[25%] text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] "
-              href="#"
+             to="#"
             >
               About Us
-            </a>
+            </NavLink>
           </div>
         </div>
       </section>
@@ -226,78 +228,8 @@ const HomeStyle01 = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div>
-        <div className=" bg-[#EDF5F8] h-auto">
-          <div className="flex flex-col items-center justify-center pt-20">
-            <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-44 half-top-border ">
-              <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">
-                OUR SERVICES
-              </h2>
-            </div>
-            <h1 className="text-4xl font-black pb-10 text-[#0B2B3C] text-center">
-              Our Main Focus
-            </h1>
-          </div>
-          <div className="w-full md:flex md:gap-3 md:px-[2rem] lg:px-[2rem]">
-            <div className="md:w-1/3 p-4 md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/1.png"
-                  alt="contactus"
-                  className="mx-auto mb-4 w-14 md:w-1/3"
-                />
-                <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                  Buy A Home
-                </p>
-                <p className="text-sm md:mb-6 mb-4">
-                  Arose mr rapid in so vexed words. Gay welcome led add to
-                  lasting chiefly say to looking for better.
-                </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
-                  <p className="text-light">Get Now &rarr;</p>
-                </div>
-              </div>
-            </div>
-            <div className="md:w-1/3 p-4  md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/2.png"
-                  alt="contactus"
-                  className="mx-auto mb-4 w-14 md:w-1/3"
-                />
-                <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                  Sell A Home
-                </p>
-                <p className="text-sm md:mb-6 mb-4">
-                  Arose mr rapid in so vexed words. Gay welcome led add to
-                  lasting chiefly say to looking for better.
-                </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
-                  <p className="text-light">Get Now &rarr;</p>
-                </div>
-              </div>
-            </div>
-            <div className="md:w-1/3 p-4 md:pb-20">
-              <div className="bg-white text-center p-8 rounded">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/3.png"
-                  alt="contactus"
-                  className="mx-auto mb-4 w-14 md:w-1/3"
-                />
-                <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                  Rent A Home
-                </p>
-                <p className="text-sm md:mb-6 mb-4">
-                  Arose mr rapid in so vexed words. Gay welcome led add to
-                  lasting chiefly say to looking for better.
-                </p>
-                <div className=" border-[#5f3afc] half-bottom-border inline-block">
-                  <p className="text-light">Get Now &rarr;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="py-[1rem]">
+       <Services />
       </div>
 
       {/* counter  */}
@@ -343,6 +275,7 @@ const HomeStyle01 = () => {
             <div className="flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
+                alt=""
                 className="w-40 h-40"
               />
               <div className="relative flex flex-col">
@@ -371,6 +304,7 @@ const HomeStyle01 = () => {
             <div className="flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
+                alt=""
                 className="w-40 h-40"
               />
               <div className="relative flex flex-col">

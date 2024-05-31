@@ -5,8 +5,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaVimeoV } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { CiLocationOn } from "react-icons/ci";
-import logo from '../imgs/nav/logo2.jpg';
 import { NavLink } from 'react-router-dom';
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoIosSearch } from "react-icons/io";
@@ -14,6 +12,7 @@ import { CiUser } from "react-icons/ci";
 import { IoIosMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { links } from '../Data/Info';
+import { FaPhoneAlt } from "react-icons/fa";
 
 import Nav from './Nav';
 
@@ -43,8 +42,8 @@ const Navbar = () => {
 
             <div className='bg-black text-white flex justify-between items-center px-[2rem] py-2'> 
                 <div className='flex md:justify-between gap-[1rem] text-sm'>
-                    <p className='flex items-center gap-2'><MdOutlineMailOutline className='text-blue-500' />info12@gmail.com</p>
-                    <p className='flex items-center gap-2'><CiLocationOn className='text-blue-500' />California, TX 70240</p>
+                    <p className='flex items-center gap-2'><MdOutlineMailOutline className='text-blue-500' />aaradhyaproperties3@gmail.com</p>
+                    <p className='flex items-center gap-2'><FaPhoneAlt className='text-blue-500' />+91 84540 50179</p>
                 </div>
 
                 <div className='lg:flex gap-[1rem] md:hidden sm:block hidden'>
@@ -57,7 +56,7 @@ const Navbar = () => {
 
             <div className='lg:flex lg:justify-between lg:items-center px-[2rem] lg:py-4 py-[1rem] lg:gap-0 gap-[2rem] shadow-md w-full'>
                 <div className='z-50'>
-                    <img src={logo} alt='' className='mx-auto w-[60px]' />
+                    <img src='https://preetheme.com/html/bhouse/assets/img/logo.png' alt='' className='mx-auto w-[100px]' />
                 </div>
 
                 <div className='sm:block hidden z-10 '>
@@ -78,7 +77,7 @@ const Navbar = () => {
             open && (
                 <div className={`lg:hidden md:hidden bg-white w-[80%] z-10 fixed top-0 overflow-y-auto bottom-0 py-10 pl-4 ${open ? 'block' : 'hidden'}`}>
       <div className='z-10 pb-[2rem] flex justify-between items-center pr-6'>
-        <img src={logo} alt='' className='mx-auto w-[20%]' />
+      <img src='https://preetheme.com/html/bhouse/assets/img/logo.png' alt='' className='mx-auto w-[100px]' />
         <div>
           <RxCross2 className='text-2xl font-bold' onClick={() => setOpen(false)} />
         </div>

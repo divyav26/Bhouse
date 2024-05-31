@@ -1,6 +1,5 @@
 
 import { Parallax } from 'react-parallax';
-import React, { useRef } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { VscChecklist } from "react-icons/vsc";
