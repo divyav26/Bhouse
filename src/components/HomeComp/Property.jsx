@@ -64,7 +64,7 @@ const Property = () => {
               </div>
               <div className="flex flex-col">
                 <div className="p-4 flex flex-col">
-                  <h1 className="text-[#0B2B3C] hover:text-[#5f3afc] font-bold text-base">
+                  <h1 className="text-[#0B2B3C] hover:text-[#5f3afc] font-bold text-xs">
                     Riqaza Apartment Montreal
                   </h1>
                   <p>Resort Valley Ocs, USA</p>
