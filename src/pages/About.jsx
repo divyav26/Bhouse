@@ -209,23 +209,6 @@ const About = () => {
                   A.H John Doe
                 </p>
                 <p className="">Designer</p>
-                <div className="absolute inset-0 my-20 mt-6 mx-10 md:mx-8  bg-[#4c4c4e] bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full">
-                  <div className="flex space-x-4">
-                    <p className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]">
-                      <FaFacebookF className="fab fa-facebook-f" />
-                    </p>
-                    <p
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <TiSocialTwitter className="fab fa-twitter" />
-                    </p>
-                    <p
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <CiInstagram className="fab fa-instagram" />
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="md:w-1/3 p-4 md:p-8 relative group">
@@ -239,28 +222,7 @@ const About = () => {
                   A.H John Doe
                 </p>
                 <p className="">Designer</p>
-                <div className="absolute inset-0 my-20 mt-6 mx-12 md:mx-16 bg-[#4c4c4e] bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full">
-                  <div className="flex space-x-4">
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <FaFacebookF className="fab fa-facebook-f" />
-                    </NavLink>
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <TiSocialTwitter className="fab fa-twitter" />
-                    </NavLink>
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <CiInstagram className="fab fa-instagram" />
-                    </NavLink>
-                  </div>
-                </div>
+               
               </div>
             </div>
             <div className="md:w-1/3 p-4 md:p-8 relative group">
@@ -274,28 +236,7 @@ const About = () => {
                   A.H John Doe
                 </p>
                 <p className="">Designer</p>
-                <div className="absolute inset-0 my-20 mt-6 mx-12 md:mx-16  bg-[#4c4c4e] bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full">
-                  <div className="flex space-x-4">
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <FaFacebookF className="fab fa-facebook-f" />
-                    </NavLink>
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <TiSocialTwitter className="fab fa-twitter" />
-                    </NavLink>
-                    <NavLink
-                      to="#"
-                      className="text-gray-900 bg-white p-2 rounded-full hover:bg-[#5f3afc]"
-                    >
-                      <CiInstagram className="fab fa-instagram" />
-                    </NavLink>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
