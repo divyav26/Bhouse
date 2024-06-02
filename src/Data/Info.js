@@ -39,6 +39,11 @@ export const links = [
     },
     {
       id: 3,
+      title: 'Living Room',
+      path: '/livingroom',
+    },
+    {
+      id: 4,
       title: 'Page +',
       path: '/',
       sublink: [
@@ -76,7 +81,7 @@ export const links = [
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: 'Shop +',
       path: '/',
       sublink: [
@@ -89,7 +94,7 @@ export const links = [
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: 'Blog +',
       path: '/',
       sublink: [
@@ -101,7 +106,7 @@ export const links = [
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: 'Contact Us',
       path: '/contact',
     },

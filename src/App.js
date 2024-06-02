@@ -35,6 +35,7 @@ import HomeStyle04 from './pages/homepages/HomeStyle04';
 import HomeStyle05 from './pages/homepages/HomeStyle05';
 import Whishlist from "./pages/Page/shop/Whishlist";
 import PricingPlane from "./pages/Page/PricePlane/PricingPlane";
+import LivingRoom from "./pages/LivingRoom/LivingRoom";
 
 
 
@@ -84,9 +85,18 @@ function App() {
       path: "/myaccount",
       element: <MyAccount/>,
     },
+    //about
     {
       path: "/about",
       element: <About/>,
+    },
+
+    //living room
+
+    {
+      path:'/livingroom',
+      element:<LivingRoom />
+      
     },
       // pages 
 

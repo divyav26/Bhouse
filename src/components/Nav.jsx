@@ -27,7 +27,7 @@ const Nav = () => {
 
   return (
     <nav className="bg-white text-black">
-      <ul className="flex space-x-8 p-4">
+      <ul className="flex space-x-6 p-4">
         {links.map((link, index) => (
           <li key={link.id} className="relative pb-[1rem]"
             onMouseEnter={() => handleMouseEnter(index)}
