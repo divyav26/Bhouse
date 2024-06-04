@@ -40,22 +40,22 @@ const LivingRoom = () => {
             </div>
             <h1 className='text-center font-bold text-3xl pb-[1rem]'>Explore Apartment By Loaction</h1>
       </div>
-{/* 
+
       <div className='py-[1rem]'>
         <LivingRoom1 />
-      </div> */}
+      </div>
 
       <div className='py-[1rem]'>
         <LivingRoom2 />
       </div>
-{/* 
+
       <div className='py-[1rem]'>
         <LivingRoom3 />
-      </div> */}
+      </div>
 
-      {/* <div className='py-[1rem]'>
+      <div className='py-[1rem]'>
         <LivingRoom4 />
-      </div> */}
+      </div>
     </Layout>
   )
 }

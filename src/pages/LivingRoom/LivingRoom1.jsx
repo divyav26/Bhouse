@@ -1,7 +1,12 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { RiArchiveDrawerLine } from "react-icons/ri";
+import { FaVectorSquare } from "react-icons/fa";
+import { MdOutlineBedroomParent } from "react-icons/md";
+import { MdOutlineBathroom } from "react-icons/md";
+import { MdOutlineBalcony } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
+import { FaRupeeSign } from "react-icons/fa";
 import prop1 from '../../imgs/LivingRoom/Prop1-img1.jpg'
 import prop2 from '../../imgs/LivingRoom/Prop1-img2.jpg'
 import prop3 from '../../imgs/LivingRoom/Prop1-img3.jpg'
@@ -73,44 +78,27 @@ function LivingRoom1() {
               </Slider>
             </div>
           </div>
-          <div className="my-1">
-            <h1 className="uppercase text-2xl font-bold">Living Room</h1>
-            <p className="text-black/80 my-4 text-xl md:text-2xl font-semibold">
-              4BHK apartment is available for sale. Location Bandra west. Carpet
-              Area 2000sqft.
-            </p>
+          <div className="bg-[#5f3afc] text-white px-4 pt-2">
+           <h1 className="text-xl font-bold">4BHK apartment is available for sale</h1>
+           <p className="py-1 border-dotted border-b">View Details &rarr;</p>
+           <div className="grid grid-cols-2 gap-4 py-4">
+              <p className="flex items-center gap-2"><FaVectorSquare />2000sqft</p>
+              <p className="flex items-center gap-2"><MdOutlineBedroomParent />4 BedRoom</p>
+              <p className="flex items-center gap-2"><MdOutlineBathroom /> 2 BathRoom</p>
+              <p className="flex items-center gap-2"><MdOutlineBalcony  />1 Balcony</p>
+           </div>
+           <hr className="border-dotted border-b" />
+           <div className="py-4">
+            <p className="flex items-center gap-2"><CiLocationOn /> Bandra west</p>
+           </div>
+           <hr className="border-dotted border-b" />
+          
+           <div className="py-4">
+            <p className="flex items-center gap-2"><FaRupeeSign  /> 6.75 CR</p>
+           </div>
+           <hr className="border-dotted border-b" />
 
-            <ul className="">
-              <li className="flex items-center mb-4">
-                <div className="bg-[#5F3AFC] p-3 text-white rounded-full inline-block mr-3">
-                  <RiArchiveDrawerLine />
-                </div>
-                <div>
-                  <h2 className="uppercase text-lg font-bold">
-                    Fully Furnished
-                  </h2>
-                  <p className="text-black/70">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam, similique eum!
-                  </p>
-                </div>
-              </li>
 
-              <li className="flex items-center">
-                <div className="bg-[#5F3AFC] p-3 text-white rounded-full inline-block mr-3">
-                  <RiArchiveDrawerLine />
-                </div>
-                <div>
-                  <h2 className="uppercase text-lg font-bold">
-                    Fully Furnished
-                  </h2>
-                  <p className="text-black/70">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam, similique eum!
-                  </p>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
