@@ -32,7 +32,7 @@ const PricingPlane = () => {
           ABOUT US
         </h2>
       </div>
-      <h2 className="text-[#0B2B3C] text-4xl font-bold mb-20 text-center">
+      <h2 className="text-[#0B2B3C] text-4xl font-bold mb-2 text-center">
         Pricing Packages
       </h2>
       <h2 className="text-[#0B2B3C] text-xl font-bold mb-4 text-center">

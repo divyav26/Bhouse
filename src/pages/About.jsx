@@ -1,9 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { FaFacebookF } from "react-icons/fa";
-import { TiSocialTwitter } from "react-icons/ti";
-import { CiInstagram } from "react-icons/ci";
-
 import { TiHomeOutline } from "react-icons/ti";
 import { PiTableThin } from "react-icons/pi";
 import { IoShieldCheckmark } from "react-icons/io5";

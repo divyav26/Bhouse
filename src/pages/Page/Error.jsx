@@ -44,6 +44,10 @@ const Error = () => {
           </button>
         </div>
       </div>
+
+      <div>
+        <img src='C:\Users\Divya Mishra\Downloads\WhatsApp Image 2024-05-31 at 3.35.30 PM.jpeg' alt='' className='w-full h-full'/>
+      </div>
     </Layout>
   )
 }

@@ -69,3 +69,18 @@
 .group:hover .absolute {
   opacity: 1;
 }
+
+/* border  */
+.half-top-border1 {
+  position: relative;
+}
+
+.half-top-border1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; 
+  height: 8px; 
+  background-color: white; 
+}
