@@ -128,7 +128,7 @@ const Area = () => {
   };
 
   return (
-    <div className="md:px-[2rem] lg:px-36 lg:pt-20">
+    <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 lg:pt-20">
       <div className="flex flex-col items-center justify-center lg:mt-20">
         <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-35 half-top-border">
           <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">

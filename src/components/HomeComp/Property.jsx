@@ -10,7 +10,7 @@ import { IoCartOutline } from "react-icons/io5";
 const Property = () => {
   return (
     <div>
-      <div className="md:px-[1rem] lg:pt-20">
+      <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 lg:pt-20">
         <div className="flex flex-col items-center justify-center ">
           <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-35 half-top-border ">
             <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">
@@ -23,10 +23,10 @@ const Property = () => {
         </div>
 
         <div className="md:flex md:flex-wrap">
-          <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
+          <div className="md:w-1/3 p-4 md:px-5 md:pb-20">
             <div className="bg-white border rounded">
               <div className="relative group">
-              <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden">
                   <img
                     src="https://preetheme.com/html/bhouse/assets/img/product/1.jpg"
                     alt="contactus"
@@ -35,7 +35,7 @@ const Property = () => {
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <div className="flex space-x-4">
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500 hover:text-white"  />
+                        <LuEye className="text-gray-500 hover:text-white" />
                       </div>
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
                         <FaRegHeart className="text-gray-500 hover:text-white" />
@@ -75,17 +75,17 @@ const Property = () => {
                 </div>
                 <div className="border-t p-4">
                   <div className="flex flex-row gap-2">
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <IoMdBed />
                       <p>3 Beds</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <FaBath />
                       <p>2 Baths</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <PiSquaresFour />
                       <p>600 Sq Ft</p>
                     </div>
@@ -94,19 +94,19 @@ const Property = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
+          <div className="md:w-1/3 p-4 md:px-5 md:pb-20">
             <div className="bg-white border rounded">
               <div className="relative group">
-              <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden">
                   <img
                     src="https://preetheme.com/html/bhouse/assets/img/product/2.jpg"
                     alt="contactus"
                     className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <div className="flex space-x-4">
+                    <div className="flex space-x-4">
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500 hover:text-white"  />
+                        <LuEye className="text-gray-500 hover:text-white" />
                       </div>
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
                         <FaRegHeart className="text-gray-500 hover:text-white" />
@@ -145,17 +145,17 @@ const Property = () => {
                 </div>
                 <div className="border-t p-4">
                   <div className="flex flex-row gap-2">
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <IoMdBed />
                       <p>3 Beds</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <FaBath />
                       <p>2 Baths</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <PiSquaresFour />
                       <p>600 Sq Ft</p>
                     </div>
@@ -164,19 +164,19 @@ const Property = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3 p-4 md:px-2 md:pb-20">
+          <div className="md:w-1/3 p-4 md:px-5 md:pb-20">
             <div className="bg-white border rounded">
               <div className="relative group">
-              <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden">
                   <img
                     src="https://preetheme.com/html/bhouse/assets/img/product/3.jpg"
                     alt="contactus"
                     className="lg:w-full object-cover object-center transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <div className="flex space-x-4">
+                    <div className="flex space-x-4">
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
-                        <LuEye className="text-gray-500 hover:text-white"  />
+                        <LuEye className="text-gray-500 hover:text-white" />
                       </div>
                       <div className="icon bg-white hover:bg-[#5f3afc] rounded-full p-2 transition-transform duration-300 transform group-hover:scale-110">
                         <FaRegHeart className="text-gray-500 hover:text-white" />
@@ -215,17 +215,17 @@ const Property = () => {
                 </div>
                 <div className="border-t p-4">
                   <div className="flex flex-row gap-2">
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <IoMdBed />
                       <p>3 Beds</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <FaBath />
                       <p>2 Baths</p>
                       <div className="bg-gray-200 h-6 w-px" />
                     </div>
-                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs">
+                    <div className="text-gray-500 flex flex-row items-center gap-1 text-xs xl:text-base">
                       <PiSquaresFour />
                       <p>600 Sq Ft</p>
                     </div>
@@ -237,7 +237,7 @@ const Property = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Property

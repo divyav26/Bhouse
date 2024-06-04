@@ -1,20 +1,21 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { TiHomeOutline } from "react-icons/ti";
-import { PiTableThin } from "react-icons/pi";
-import { IoShieldCheckmark } from "react-icons/io5";
-import { BsFan } from "react-icons/bs";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlinePhotoCameraBack } from "react-icons/md";
+import { MdOutlineSecurity } from "react-icons/md";
+import { IoMdFootball } from "react-icons/io";
 
 import contact from '../imgs/contact/banner.jpg'
 import { NavLink } from 'react-router-dom';
+import Services from '../components/HomeComp/Services';
 
 
 
 const About = () => {
   return (
     <Layout>
-       <div className="relative">
-       <div className="absolute lg:inset-0 flex left-2 lg:py-24 md:py-16 pt-[1rem]">
+      <div className="relative">
+        <div className="absolute lg:inset-0 flex left-2 lg:py-24 md:py-16 pt-[1rem]">
           <div className="bg-white bg-opacity-80 text-blue-950 p-5 md:p-8 mx-6 md:mx-3 ">
             <p className="text-3xl font-bold md:mb-6">About Us</p>
             <div className="flex gap-2">
@@ -29,163 +30,97 @@ const About = () => {
           </div>
         </div>
         <div className="w-full object-cover">
-          <img src={contact} alt="contactus" className="w-full md:h-auto h-[20vh]" />
+          <img
+            src={contact}
+            alt="contactus"
+            className="w-full md:h-auto h-[20vh]"
+          />
         </div>
       </div>
-      <div className="w-full md:w-full p-2 px-[2rem] py-8 mt-10">
-        <div className="flex flex-col sm:flex-row items-center sm:items-start ">
+      {/* About Us */}
+      <section className="px-2 md:px-[2rem] lg:px-[2rem] xl:px-36  lg:mt-20">
+        <div className="flex flex-col sm:gap-5 sm:flex-row items-center sm:items-start ">
           <div className="w-full md:1/2 ">
-            <img src='https://preetheme.com/html/bhouse/assets/img/about.png' alt="" className="w-full h-auto mb-4" />
+            <img
+              src="https://preetheme.com/html/bhouse/assets/img/about.png"
+              alt=""
+              className="w-full h-auto mb-4"
+            />
           </div>
-          <div className="w-full md:1/2 ">
-            <div class="flex items-center">
-              <div class="bg-white px-3 py-1 md:ml-4 ml-2 border-t-8 border-b-8  border-l-8 border-[#5f3afc]">
-                <p className="text-sm md:text-xl md:ml-2 text-[#0b2b3c] font-bold mb-4">
+          <div className="w-full md:1/2 sm:mt-10">
+            <div className="flex flex-col">
+              <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
+                <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
                   ABOUT US
-                </p>
+                </h2>
               </div>
             </div>
-            <p className="text-xl md:text-3xl md:ml-5 text-[#0b2b3c]5f3afc font-bold mb-2 mt-4">
+            <p className="text-xl md:text-3xl text-[#0b2b3c]5f3afc font-bold py-2">
               Architects With Difference & New Approach.
             </p>
-            <p className="text-black md:ml-5 my-2 text-xs ">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              eligendi odio perspiciatis alias, enim ut tempora porro sequi fuga
-              rem repellat quae distinctio quis temporibus reprehenderit
-              repudiandae dolor officiis nisi.
+            <p className="text-black py-4 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              feugiat lectus sed justo sollicitudin, non porttitor nunc varius.
+              Donec commodo ac nibh quis aliquet. Suspendisse varius hendrerit
+              odio eget efficitur. Mauris sed neque porta, lacinia metus sit
+              amet, laoreet quam. Maecenas dapibus ligula vel magna hendrerit.
             </p>
-            <div className="flex flex-wrap md:flex-nowrap -mx-2">
-              <div className="w-full md:w-1/2 px-4 md:py-4 mb-4 md:mb-0">
-                <div className="flex items-center">
-                  <TiHomeOutline className="text-[#5f3afc] bg-gray-400 rounded-full w-10 h-10 p-2 mr-2" />
-                  <div>
-                    <h3 className="font-semibold">Smart Home Design</h3>
+            <div className="flex justify-between mr-20 py-4">
+              <div className="flex flex-col gap-6">
+                <div className="flex items-center gap-2">
+                  <div className="bg-[#E5DFFF] p-2 rounded-full">
+                    <IoHomeOutline className="text-[#5F3AFC] text-2xl" />
                   </div>
+                  <h2 className="text-lg">Smart Home Design</h2>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="bg-[#E5DFFF] p-2 rounded-full">
+                    <MdOutlineSecurity className="text-[#5F3AFC] text-2xl" />
+                  </div>
+                  <h2 className="text-lg">Complete 24/7 Security</h2>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 md:py-4 mb-4 md:mb-0">
-                <div className="flex items-center">
-                  <PiTableThin className="text-[#5f3afc] bg-gray-400 rounded-full w-10 h-10 p-2 mr-2" />
-                  <div>
-                    <h3 className="font-semibold">Beautiful Scene Around</h3>
+              <div className="flex flex-col gap-6">
+                <div className="flex items-center gap-2">
+                  <div className="bg-[#E5DFFF] p-2 rounded-full">
+                    <MdOutlinePhotoCameraBack className="text-[#5F3AFC] text-2xl" />
                   </div>
+                  <h2 className="text-lg">Beautiful Scene Around</h2>
                 </div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap md:flex-nowrap -mx-2">
-              <div className="w-full md:w-1/2 px-4 md:py-4 mb-4 md:mb-0">
-                <div className="flex items-center">
-                  <IoShieldCheckmark className="text-[#5f3afc] bg-gray-400 rounded-full w-10 h-10 p-2 mr-2" />
-                  <div>
-                    <h3 className="font-semibold">Complete 24/7 Security</h3>
+                <div className="flex items-center gap-2">
+                  <div className="bg-[#E5DFFF] p-2 rounded-full">
+                    <IoMdFootball className="text-[#5F3AFC] text-2xl" />
                   </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 px-4 md:py-4 mb-4 md:mb-0">
-                <div className="flex items-center">
-                  <BsFan className="text-[#5f3afc] bg-gray-400 rounded-full w-10 h-10 p-2 mr-2" />
-                  <div>
-                    <h3 className="font-semibold">Exceptional Lifestyle</h3>
-                  </div>
+                  <h2 className="text-lg">Exceptional Lifestyle</h2>
                 </div>
               </div>
             </div>
-            <p className="text-black md:ml-5 text-xs mt-2">
+            <p className="text-black py-5 text-base">
               Morbi porttitor nibh justo, sit amet imperdiet ligula laoreet eu.
               Sed mollis nec sem vel laoreet. Donec tincidunt consequat gravida.
               Nullam accumsan lobortis nisl sed gravida. Aliquam facilisis
               blandit accumsan. Suspendisse elementum sit amet tortor eget
               mollis.
             </p>
-
-            <button
-              type="button"
-              className="float-left bg-[#0b2b3c] hover:bg-[#5f3afc] mt-10 w-40 px-5 py-5 md:ml-5 text-center right-2 text-white font-bold shadow"
+            <NavLink
+              className="block uppercase bg-[#5F3AFC] px-10 py-4 w-[25%] text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] "
+              to="#"
             >
               About Us
-            </button>
+            </NavLink>
           </div>
         </div>
-      </div>
+      </section>
       {/* OUR SERVICES */}
-      <div className="bg-gray-200 relative w-full ">
-        <div className="flex items-center justify-center">
-          <div className="bg-white px-3 py-1 md:ml-4 ml-2 border-t-8 border-b-8  border-l-8 border-[#5f3afc] mt-5 z-10 relative">
-            <p className="text-sm md:text-xl md:ml-2 text-[#0b2b3c]  font-bold mb-4 items-center">
-              OUR SERVICES
-            </p>
-          </div>
-        </div>
-        <p className="text-[#0b2b3c] text-2xl text-center font-bold mt-2">
-          Our Main Focus
-        </p>
-
-        {/* overlay */}
-        <div className="pb-15">
-          <div className="inset-0 flex flex-wrap md:py-4 bg-gray-200">
-            <div className="w-full md:flex md:flex-wrap">
-              <div className="md:w-1/3 p-4 md:p-8">
-                <div className="bg-white text-center p-4 rounded-lg">
-                  <img
-                    src='https://preetheme.com/html/bhouse/assets/img/1.png'
-                    alt="contactus"
-                    className="mx-auto mb-4 w-14 md:w-1/3"
-                  />
-                  <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                    Buy A Home
-                  </p>
-                  <p className="text-sm md:mb-6 mb-4">
-                    Arose mr rapid in so vexed words. Gay welcome led add to
-                    lasting chiefly say to looking for better.
-                  </p>
-                  <p className="">Get Now &rarr;</p>
-                </div>
-              </div>
-              <div className="md:w-1/3 p-4 md:p-8">
-                <div className="bg-white text-center p-4 rounded-lg">
-                  <img
-                    src='https://preetheme.com/html/bhouse/assets/img/2.png'
-                    alt="contactus"
-                    className="mx-auto mb-4 w-14 md:w-1/3"
-                  />
-                  <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                    Sell A Home
-                  </p>
-                  <p className="text-sm md:mb-6 mb-4">
-                    Arose mr rapid in so vexed words. Gay welcome led add to
-                    lasting chiefly say to looking for better.
-                  </p>
-                  <p className="">Get Now &rarr;</p>
-                </div>
-              </div>
-              <div className="md:w-1/3 p-4 md:p-8">
-                <div className="bg-white text-center p-4 rounded-lg">
-                  <img
-                    src='https://preetheme.com/html/bhouse/assets/img/3.png'
-                    alt="contactus"
-                    className="mx-auto mb-4 w-14 md:w-1/3"
-                  />
-                  <p className="text-xl font-bold md:mb-6 mb-4 text-[#5f3afc]">
-                    Rent A Home
-                  </p>
-                  <p className="text-sm md:mb-6 mb-4">
-                    Arose mr rapid in so vexed words. Gay welcome led add to
-                    lasting chiefly say to looking for better.
-                  </p>
-                  <p className="">Get Now &rarr;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <Services />
       </div>
       {/* Property Agents*/}
       <div className="flex items-center justify-center md-pt-0 md:pt-2">
-        <div className="bg-white px-4 py-1 md:ml-4 ml-2 border-t-8 border-b-8  border-l-8 border-[#5f3afc] mt-6 md:mt-0 z-10 relative">
-          <p className="text-sm md:text-xl text-[#0b2b3c]  font-bold mb-4 items-center">
+        <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-34 half-top-border">
+          <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
             TEAM
-          </p>
+          </h2>
         </div>
       </div>
       <p className="text-[#0b2b3c] text-2xl text-center font-bold mt-2">
@@ -197,7 +132,7 @@ const About = () => {
             <div className="md:w-1/3 p-4 md:p-8 relative group">
               <div className="bg-white text-center p-4 rounded-lg relative overflow-hidden">
                 <img
-                  src='https://preetheme.com/html/bhouse/assets/img/team/1.jpg'
+                  src="https://preetheme.com/html/bhouse/assets/img/team/1.jpg"
                   alt="contactus"
                   className="mx-auto mb-4 w-60 md:w-[100%] rounded-full"
                 />
@@ -210,7 +145,7 @@ const About = () => {
             <div className="md:w-1/3 p-4 md:p-8 relative group">
               <div className="bg-white text-center p-4 rounded-lg relative overflow-hidden">
                 <img
-                  src='https://preetheme.com/html/bhouse/assets/img/team/2.jpg'
+                  src="https://preetheme.com/html/bhouse/assets/img/team/2.jpg"
                   alt="contactus"
                   className="mx-auto mb-4 w-60 md:w-[100%]  rounded-full"
                 />
@@ -218,13 +153,12 @@ const About = () => {
                   A.H John Doe
                 </p>
                 <p className="">Designer</p>
-               
               </div>
             </div>
             <div className="md:w-1/3 p-4 md:p-8 relative group">
               <div className="bg-white text-center p-4 rounded-lg relative overflow-hidden">
                 <img
-                  src='https://preetheme.com/html/bhouse/assets/img/team/3.jpg'
+                  src="https://preetheme.com/html/bhouse/assets/img/team/3.jpg"
                   alt="contactus"
                   className="mx-auto mb-4 w-60 md:w-[100%] rounded-full "
                 />
@@ -232,14 +166,11 @@ const About = () => {
                   A.H John Doe
                 </p>
                 <p className="">Designer</p>
-                
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
 
       {/* OUR AWESOME TESTIMONIAL */}
       {/* <div className="bg-gray-300 relative pb- w-full ">
@@ -254,10 +185,8 @@ const About = () => {
           Clients Feedback
         </p>
       </div> */}
-
-      
     </Layout>
-  )
+  );
 }
 
 export default About

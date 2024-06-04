@@ -15,13 +15,13 @@ const Testimonials = () => {
             Clients Feedback
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row gap-10 p-2 md:p-5 lg:px-[2rem] lg:py-20">
+        <div className="flex flex-col lg:flex-row gap-10 p-2 md:p-5 md:px-[2rem] lg:px-[2rem] xl:px-36 lg:py-20">
           <div className="w-full lg:w-[50%] bg-white p-8">
             {" "}
             <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
-                alt=''
+                alt=""
                 className="lg:w-40 lg:h-40 w-80 lg:pb-0 pb-4 object-cover object-center"
               />
               <div className="relative flex flex-col">
@@ -50,7 +50,7 @@ const Testimonials = () => {
             <div className="lg:flex gap-4">
               <img
                 src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
-                alt=''
+                alt=""
                 className="lg:w-40 lg:h-40 w-80 lg:pb-0 pb-4 object-cover object-center"
               />
               <div className="relative flex flex-col">
@@ -77,7 +77,7 @@ const Testimonials = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Testimonials

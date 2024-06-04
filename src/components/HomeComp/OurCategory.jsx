@@ -13,7 +13,7 @@ import { HiBuildingOffice } from "react-icons/hi2";
 const OurCategory = () => {
     
   return (
-    <div className="md:px-[2rem] lg:py-20">
+    <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 lg:py-20">
       <div className="flex flex-col items-center justify-center mb-10">
         <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-30 half-top-border ">
           <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">
@@ -128,7 +128,6 @@ const OurCategory = () => {
               12
             </span>
           </div>
-          
         </div>
       </div>
     </div>

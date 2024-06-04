@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 const Aboutus = () => {
   return (
     <div>
-      <section className="px-2 md:px-[2rem] lg:px-[2rem]  lg:mt-20">
+      <section className="px-2 md:px-[2rem] lg:px-[2rem] xl:px-36 lg:mt-20">
         <div className="flex flex-col sm:gap-5 sm:flex-row items-center sm:items-start ">
           <div className="w-full md:1/2 ">
             <img
@@ -82,7 +82,7 @@ const Aboutus = () => {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default Aboutus

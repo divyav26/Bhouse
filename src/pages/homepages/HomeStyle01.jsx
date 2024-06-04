@@ -4,10 +4,7 @@ import { MdOutlinePhotoCameraBack } from "react-icons/md";
 import { MdOutlineSecurity } from "react-icons/md";
 import { IoMdFootball } from "react-icons/io";
 import InputBox from '../../components/HomeComp/InputBox'
-import { RiAdminFill } from "react-icons/ri";
-import { FaTags } from "react-icons/fa";
 import Layout from "../../components/Layout";
-import comments from '../../imgs/home/Comments.jpg'
 import ApartmentsPlan from "../../components/HomeComp/ApartmentsPlan";
 import ParallaxComponent from "../../components/HomeComp/ParallaxComponent";
 import Counter from "../../components/HomeComp/Counter";
@@ -16,6 +13,8 @@ import ImgBlog from "../../components/HomeComp/ImgBlog";
 import Property from "../../components/HomeComp/Property";
 import Services from "../../components/HomeComp/Services";
 import { NavLink } from "react-router-dom";
+import BlogNews from "../../components/HomeComp/BlogNews";
+import Testimonials from "../../components/HomeComp/Testimonials";
 
 
 
@@ -43,7 +42,7 @@ const HomeStyle01 = () => {
     <Layout>
       {/* Animation */}
       <div
-        className="relative bg-[#EDF5F8] h-[71vh] p-2 md:px-[2rem] lg:px-[2rem] mx-auto"
+        className="relative bg-[#EDF5F8] h-[71vh] p-2 md:px-[2rem] lg:px-[2rem] xl:px-36 mx-auto"
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
@@ -101,7 +100,7 @@ const HomeStyle01 = () => {
         </div>
       </div>
       {/* About Us */}
-      <section className="px-2 md:px-[2rem] lg:px-[2rem]  lg:mt-20">
+      <section className="px-2 md:px-[2rem] lg:px-[2rem] xl:px-36  lg:mt-20">
         <div className="flex flex-col sm:gap-5 sm:flex-row items-center sm:items-start ">
           <div className="w-full md:1/2 ">
             <img
@@ -167,7 +166,7 @@ const HomeStyle01 = () => {
             </p>
             <NavLink
               className="block uppercase bg-[#5F3AFC] px-10 py-4 w-[25%] text-sm font-medium text-white shadow hover:bg-[#0B2B3C] focus:outline-none focus:ring active:bg-[#0B2B3C] "
-             to="#"
+              to="#"
             >
               About Us
             </NavLink>
@@ -175,7 +174,7 @@ const HomeStyle01 = () => {
         </div>
       </section>
       {/* About Us Details */}
-      <div className="px-2 md:px-[2rem] lg:px-[2rem] md:pt-[2rem] lg:pt-20">
+      <div className="px-2 md:px-[2rem] lg:px-[2rem] xl:px-36 md:pt-[2rem] lg:pt-20">
         <div className="flex flex-col md:flex-row gap-x-16">
           <div className="flex flex-col w-full md:w-[50%]">
             <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-44 half-top-border ">
@@ -229,240 +228,44 @@ const HomeStyle01 = () => {
       </div>
       {/* Our Services */}
       <div className="py-[1rem]">
-       <Services />
+        <Services />
       </div>
 
       {/* counter  */}
       <div>
-      <Counter />
+        <Counter />
       </div>
       {/* Property */}
       <div className="px-[2rem] py-[2rem]">
         <Property />
       </div>
 
-            {/* Appartments  */}
+      {/* Appartments  */}
       <div className="px-[2rem]">
         <ApartmentsPlan />
-
       </div>
       {/* parallax  */}
       <div className="px-[2rem] py-[2rem]">
-            <ParallaxComponent />
+        <ParallaxComponent />
       </div>
 
       {/* our category  */}
       <div className="px-[2rem] py-[2rem]">
-            <OurCategory />
+        <OurCategory />
       </div>
 
-      
       {/* Our Testimonials */}
-      <div className="bg-[#EDF5F8] h-auto p-2">
-        <div className="flex flex-col items-center justify-center pt-16">
-          <div className="px-3 pt-1 border-b-8 border-l-8 border-[#5f3afc] w-50 half-top-border ">
-            <h2 className="text-sm md:text-xl text-[#0B2B3c] font-bold">
-              OUR AWESOME TESTIMONIAL
-            </h2>
-          </div>
-          <h1 className="text-4xl font-black mt-2 text-[#0B2B3C] text-center">
-            Clients Feedback
-          </h1>
-        </div>
-        <div className="flex flex-col lg:flex-row gap-10 p-2 md:p-5 lg:px-[2rem] lg:py-20">
-          <div className="w-full lg:w-[50%] bg-white p-8">
-            {" "}
-            <div className="flex gap-4">
-              <img
-                src="https://preetheme.com/html/bhouse/assets/img/tes1.jpg"
-                alt=""
-                className="w-40 h-40"
-              />
-              <div className="relative flex flex-col">
-                <div className="flex flex-col">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga inventore odit, sunt, delectus esse maiores similique!
-                  </p>
-                  <h1 className="mt-4 font-bold text-xl">
-                    Rosalina D. William
-                  </h1>
-                  <h2 className="text-base text-[#5f3afc] font-bold">
-                    Founder
-                  </h2>
-                </div>
-                <img
-                  src={comments}
-                  alt="comment"
-                  className="w-24 h-20 absolute bottom-0 right-0"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="w-full lg:w-[50%] bg-white p-8">
-            {" "}
-            <div className="flex gap-4">
-              <img
-                src="https://preetheme.com/html/bhouse/assets/img/tes2.jpg"
-                alt=""
-                className="w-40 h-40"
-              />
-              <div className="relative flex flex-col">
-                <div className="flex flex-col">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga inventore odit, sunt, delectus esse maiores similique!
-                  </p>
-                  <h1 className="mt-4 font-bold text-xl">
-                    Rosalina D. William
-                  </h1>
-                  <h2 className="text-base text-[#5f3afc] font-bold">
-                    Founder
-                  </h2>
-                </div>
-                <img
-                  src={comments}
-                  alt="comment"
-                  className="w-24 h-20 absolute bottom-0 right-0"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     <Testimonials />
       {/* Blog & News */}
-      <div className="md:px-[2rem] lg:px-[2rem] lg:pt-20">
-        <div className="flex flex-col items-center justify-center ">
-          <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-35 half-top-border ">
-            <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">
-              BLOG & NEWS
-            </h2>
-          </div>
-          <h1 className="text-4xl font-black pb-10 text-[#0B2B3C] text-center">
-            Latest Blog
-          </h1>
-        </div>
-        <div className="md:flex lg:flex md:gap-x-6">
-          <div className="md:w-1/3  md:pb-20">
-            <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/blog/1.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
-                <div className="absolute -bottom-7 right-0 mr-4 text-black bg-white shadow py-2 px-7">
-                  <span className="flex flex-col items-center justify-center font-bold text-3xl">
-                    31 <p className="text-sm font-normal">Oct</p>
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-col px-4 py-6">
-                <div className="flex items-center gap-4">
-                  <span className="flex items-center justify-center gap-1">
-                    <RiAdminFill className="text-indigo-500" />
-                    Admin
-                  </span>
-                  <span className="flex items-center justify-center gap-1">
-                    <FaTags className="text-indigo-500" />
-                    Technology
-                  </span>
-                </div>
-                <h1 className="text-xl font-bold py-4">
-                  Five Ways To Develop a World Class Sales Operations
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nulla, dolores! Nisi nostrum molestias ut harum adipisci
-                  dolores debitis omnis quis veniam accusamus. Voluptate porro
-                  tenetur non vero ab eum quo! !
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="md:w-1/3 md:pb-20">
-            <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/blog/2.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
-                <div className="absolute -bottom-7 right-0 mr-4 text-black bg-white shadow py-2 px-7">
-                  <span className="flex flex-col items-center justify-center font-bold text-3xl">
-                    31 <p className="text-sm font-normal">Oct</p>
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-col px-4 py-6">
-                <div className="flex items-center gap-4">
-                  <span className="flex items-center justify-center gap-1">
-                    <RiAdminFill className="text-indigo-500" />
-                    Admin
-                  </span>
-                  <span className="flex items-center justify-center gap-1">
-                    <FaTags className="text-indigo-500" />
-                    Technology
-                  </span>
-                </div>
-                <h1 className="text-xl font-bold py-4">
-                  Five Ways To Develop a World Class Sales Operations
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nulla, dolores! Nisi nostrum molestias ut harum adipisci
-                  dolores debitis omnis quis veniam accusamus. Voluptate porro
-                  tenetur non vero ab eum quo! !
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="md:w-1/3  md:pb-20">
-            <div className="bg-white border rounded">
-              <div className="relative">
-                <img
-                  src="https://preetheme.com/html/bhouse/assets/img/blog/3.jpg"
-                  alt="contactus"
-                  className="lg:w-full"
-                />
-                <div className="absolute -bottom-7 right-0 mr-4 text-black bg-white shadow py-2 px-7">
-                  <span className="flex flex-col items-center justify-center font-bold text-3xl">
-                    31 <p className="text-sm font-normal">Oct</p>
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-col px-4 py-6">
-                <div className="flex items-center gap-4">
-                  <span className="flex items-center justify-center gap-1">
-                    <RiAdminFill className="text-indigo-500" />
-                    Admin
-                  </span>
-                  <span className="flex items-center justify-center gap-1">
-                    <FaTags className="text-indigo-500" />
-                    Technology
-                  </span>
-                </div>
-                <h1 className="text-xl font-bold py-4">
-                  Five Ways To Develop a World Class Sales Operations
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nulla, dolores! Nisi nostrum molestias ut harum adipisci
-                  dolores debitis omnis quis veniam accusamus. Voluptate porro
-                  tenetur non vero ab eum quo! !
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <BlogNews />
       </div>
 
       {/* img blog  */}
-      
+
       <div className="">
         <ImgBlog />
       </div>
-
     </Layout>
   );
 };
