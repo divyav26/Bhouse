@@ -79,7 +79,7 @@ function LivingRoom2() {
               </Slider>
             </div>
           </div>
-          <div className="bg-[#5f3afc] text-white px-4 pt-2">
+          <div className="bg-[#5f3afc] text-white px-4 pt-2 flex flex-col justify-center">
            <h1 className="text-xl font-bold">3BHK +Balcony apartment available for sale</h1>
            <p className="py-1 border-dotted border-b">View Details &rarr;</p>
            <div className="grid grid-cols-2 gap-4 py-4">

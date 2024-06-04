@@ -64,9 +64,9 @@ function LivingRoom3() {
   return (
     <>
       <div className="md:px-[2rem] px-[1rem] my-10">
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="grid md:grid-cols-2 grid-cols-1">
           <div>
-            <div className=" bg-white shadow-md overflow-hidden">
+            <div className="overflow-hidden">
               <Slider {...settings} className="h-full w-full object-cover">
                 {ImgData.map((menu, index) => (
                   <div key={index}>
@@ -84,7 +84,7 @@ function LivingRoom3() {
               </Slider>
             </div>
           </div>
-          <div className="bg-[#5f3afc] text-white px-4 pt-2">
+          <div className="bg-[#5f3afc] text-white px-4 pt-2 flex flex-col justify-center">
            <h1 className="text-xl font-bold">5BHK +  Half BHK apartment  available for sale.</h1>
            <p className="py-1 border-dotted border-b">View Details &rarr;</p>
            <div className="grid grid-cols-2 gap-4 py-4">

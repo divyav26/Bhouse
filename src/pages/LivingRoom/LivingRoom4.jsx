@@ -64,9 +64,9 @@ function LivingRoom4() {
   return (
     <>
       <div className="md:px-[2rem] px-[1rem] my-10">
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="grid md:grid-cols-2 grid-cols-1">
           <div>
-            <div className=" bg-white shadow-md overflow-hidden">
+            <div className="overflow-hidden">
               <Slider {...settings} className="h-full w-full object-cover">
                 {ImgData.map((menu, index) => (
                   <div key={index}>
@@ -85,7 +85,7 @@ function LivingRoom4() {
             </div>
           </div>
           <div className="bg-[#5f3afc] text-white px-4 pt-2 flex flex-col justify-center">
-           <h1 className="md:text-xl lg:text-2xl font-bold text-center">3BHK With Wrapped around balcony</h1>
+           <h1 className="md:text-xl lg:text-2xl font-bold">3BHK With Wrapped around balcony</h1>
            <p className="py-1 border-dotted border-b">View Details &rarr;</p>
            <div className="grid grid-cols-2 gap-4 py-4">
               <p className="flex items-center gap-2"><FaVectorSquare />1150carpet +350 sq ft </p>
