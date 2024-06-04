@@ -7,7 +7,6 @@ import { MdOutlineBathroom } from "react-icons/md";
 import { MdOutlineBalcony } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { FaRupeeSign } from "react-icons/fa";
-import { RiArchiveDrawerLine } from "react-icons/ri";
 import prop1 from '../../imgs/LivingRoom/Prop3-img1.jpg'
 import prop2 from '../../imgs/LivingRoom/Prop3-img2.jpg'
 import prop3 from '../../imgs/LivingRoom/Prop3-img3.jpg'
