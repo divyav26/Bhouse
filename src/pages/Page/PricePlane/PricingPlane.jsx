@@ -132,7 +132,7 @@ const PricingPlane = () => {
       <h1 className="text-[#0B2B3C] text-4xl font-bold text-center mt-20">
         Single Pricing Packages
       </h1>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  mt-4 px-[1rem]">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  mt-4 px-[1rem] py-[2rem]">
         <div className="w-full rounded-lg shadow-md overflow-hidden border-2 border-gray-200">
           <div className="bg-white text-center">
             <header className="text-sm bg-white items-center text-center p-8  rounded-lg hover:bg-[#5F3AFC] hover:text-white hover:rounded-b-[50%]">
