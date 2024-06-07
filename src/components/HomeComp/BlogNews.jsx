@@ -5,7 +5,7 @@ import { FaTags } from "react-icons/fa";
 const BlogNews = () => {
   return (
     <div>
-      <div className="md:px-[2rem] lg:px-[2rem] lg:pt-20">
+      <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 lg:pt-20">
         <div className="flex flex-col items-center justify-center ">
           <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-35 half-top-border ">
             <h2 className="text-sm md:text-xl pt-1 text-[#0B2B3c] font-bold">
@@ -45,7 +45,7 @@ const BlogNews = () => {
                 <h1 className="text-xl font-bold py-4">
                   Five Ways To Develop a World Class Sales Operations
                 </h1>
-                <p className='text-sm'>
+                <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nulla, dolores! Nisi nostrum molestias ut harum adipisci
                   dolores debitis omnis quis veniam accusamus. Voluptate porro
@@ -82,7 +82,7 @@ const BlogNews = () => {
                 <h1 className="text-xl font-bold py-4">
                   Five Ways To Develop a World Class Sales Operations
                 </h1>
-                <p className='text-sm'>
+                <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nulla, dolores! Nisi nostrum molestias ut harum adipisci
                   dolores debitis omnis quis veniam accusamus. Voluptate porro
@@ -119,7 +119,7 @@ const BlogNews = () => {
                 <h1 className="text-xl font-bold py-4">
                   Five Ways To Develop a World Class Sales Operations
                 </h1>
-                <p className='text-sm'>
+                <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nulla, dolores! Nisi nostrum molestias ut harum adipisci
                   dolores debitis omnis quis veniam accusamus. Voluptate porro
@@ -131,7 +131,7 @@ const BlogNews = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default BlogNews

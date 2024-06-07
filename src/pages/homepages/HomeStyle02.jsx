@@ -86,17 +86,17 @@ const HomeStyle02 = () => {
         <Aboutus />
       </div>
       {/* Building facilities */}
-      <div className="lg:flex w-full lg:pt-0 pt-[2rem]">
-        <div className="bg-[#5F3AFC] lg:w-[50%] md:px-[2rem] lg:pr-12 lg:py-20 py-10 ">
-          <div className="px-3 py-1 border-b-8 border-l-8 border-white w-36 half-top-border1 ">
-            <h2 className="text-sm md:text-xl text-white mt-2 font-bold">
-              ABOUT US
+      <div className="flex w-full h-[80vh]">
+        <div className="bg-[#5F3AFC] w-[50%] md:px-[2rem] lg:pl-36 lg:pr-12 py-20">
+          <div className="px-3 py-1 border-b-8 border-l-8 border-white w-60 half-top-border1 ">
+            <h2 className="text-sm md:text-xl text-white mt-2 font-bold uppercase">
+              Building facilities
             </h2>
           </div>
-          <p className="text-xl md:text-2xl text-white font-bold py-2">
+          <p className="text-xl md:text-4xl text-white font-bold py-2">
             Making Living Spaces More Beautiful
           </p>
-          <p className="text-white py-3 text-xs">
+          <p className="text-white py-3 text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             feugiat lectus sed justo sollicitudin, non porttitor nunc varius.
             Lorem ipsum dolor sit amet consectetur adipisicing elit ullam uilal
@@ -107,9 +107,9 @@ const HomeStyle02 = () => {
               {items.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center font-bold text-xs"
+                  className="flex items-center font-bold text-base"
                 >
-                  <span className="w-6 mr-2 text-white font-bold flex justify-center items-center rounded-full">
+                  <span className="w-6 h-6 mr-2 text-white font-bold flex justify-center items-center rounded-full">
                     &#10003;
                   </span>
                   {item}
@@ -118,17 +118,17 @@ const HomeStyle02 = () => {
             </ul>
           </div>
         </div>
-        <div className="lg:w-[50%]">
+        <div className="w-[50%]">
           <img
             src="https://www.homelane.com/blog/wp-content/uploads/2022/10/minimalist-slanting-wooden-dining-room-ceiling-design-768x512.jpg"
             alt="about"
-            className="lg:h-[100vh] w-full"
+            className="h-[80vh] w-full"
           />
         </div>
       </div>
       {/* Our Services */}
       <div className="py-[1rem]">
-            <Services />
+        <Services />
       </div>
       {/* Counting */}
       <div>
@@ -144,7 +144,7 @@ const HomeStyle02 = () => {
       </div>
       {/* AREA POPERTIES */}
       <div>
-          <Area />
+        <Area />
       </div>
       {/* Parallax */}
       <div>
@@ -160,7 +160,7 @@ const HomeStyle02 = () => {
       </div>
       {/* BLOG & NEWS */}
       <div>
-          <BlogNews />
+        <BlogNews />
       </div>
       {/* Img blog */}
       <div>

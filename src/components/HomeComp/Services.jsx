@@ -15,7 +15,7 @@ const Services = () => {
               Our Main Focus
             </h1>
           </div>
-          <div className="w-full md:flex md:gap-3 md:px-[2rem]">
+          <div className="w-full md:flex md:gap-3 md:px-[2rem] lg:px-[2rem] xl:px-36">
             <div className="md:w-1/3 p-4 md:pb-20">
               <div className="bg-white text-center p-8 rounded hover-card transform transition-transform duration-300 hover:-translate-y-2">
                 <img
@@ -78,7 +78,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Services

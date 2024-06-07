@@ -38,7 +38,7 @@ const Home = () => {
     <Layout>
       {/* Animation */}
       <div
-        className="relative bg-[#EDF5F8] h-auto md:h-[71vh] p-2 md:px-[2rem] mx-auto"
+        className="relative bg-[#EDF5F8] h-auto md:h-[71vh] p-2 md:px-[2rem] lg:px-[2rem] xl:px-36 mx-auto"
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
@@ -100,11 +100,11 @@ const Home = () => {
         </div>
       </div>
       {/* About Us */}
-     <div className="py-[2rem] px-[1rem]">
-      <Aboutus />
-     </div>
+      <div className="py-[2rem] px-[1rem]">
+        <Aboutus />
+      </div>
       {/* About Us Details */}
-      <div className="px-[2rem] lg:px-[2rem] md:pt-[2rem] lg:pt-20">
+      <div className="px-[2rem] md:px-[2rem] lg:px-[2rem] xl:px-36 md:pt-[2rem] lg:pt-20">
         <div className="flex flex-col md:flex-row gap-x-16">
           <div className="flex flex-col w-full md:w-[50%]">
             <div className="px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-44 half-top-border ">
@@ -158,49 +158,46 @@ const Home = () => {
       </div>
       {/* Our Services */}
       <div className="py-[1rem]">
-            <Services />
+        <Services />
       </div>
 
       {/* counter  */}
       <div>
-      <Counter />
+        <Counter />
       </div>
       {/* Property */}
       <div className="px-[1rem] py-[2rem]">
         <Property />
       </div>
 
-            {/* Appartments  */}
+      {/* Appartments  */}
       <div className="px-[1rem]">
         <ApartmentsPlan />
-
       </div>
       {/* parallax  */}
       <div className="px-[1rem] py-[2rem]">
-            <ParallaxComponent />
+        <ParallaxComponent />
       </div>
 
       {/* our category  */}
       <div className="py-[2rem] lg:px-[2rem]">
-          <OurCategory />
+        <OurCategory />
       </div>
 
-      
       {/* Our Testimonials */}
-     <div>
-      <Testimonials />
-     </div>
+      <div>
+        <Testimonials />
+      </div>
       {/* Blog & News */}
       <div className="px-[1rem] py-[2rem]">
         <BlogNews />
       </div>
 
       {/* img blog  */}
-      
+
       <div className="">
         <ImgBlog />
       </div>
-
     </Layout>
   );
 };

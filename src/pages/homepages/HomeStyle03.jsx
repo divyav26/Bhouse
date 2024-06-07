@@ -42,7 +42,7 @@ const HomeStyle03 = () => {
         </div>
       </div>
       {/* Property By Categories */}
-      <div className="md:px-[2rem] md:pt-32 p-2 pt-72 pb-[2rem] md:py-0">
+      <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 md:pt-32 p-2 pt-72 pb-[2rem] md:py-0">
         <div className="flex flex-col items-center justify-center">
           <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
             <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
@@ -91,11 +91,7 @@ const HomeStyle03 = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-10">
           <div className="relative">
-            <img
-              src={h1}
-              alt="3"
-              className="h-[40vh] w-full contrast-100"
-            />
+            <img src={h1} alt="3" className="h-[40vh] w-full contrast-100" />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <p className="text-white md:text-2xl font-bold text-center">
                 Kitchen
@@ -106,24 +102,18 @@ const HomeStyle03 = () => {
             </div>
           </div>
           <div className="relative">
-            <img
-              src={h2}
-              alt="4"
-              className="h-[40vh] w-full contrast-50"
-            />
+            <img src={h2} alt="4" className="h-[40vh] w-full contrast-50" />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p className="text-white md:text-2xl font-bold text-center">Hall</p>
+              <p className="text-white md:text-2xl font-bold text-center">
+                Hall
+              </p>
               <button className="text-white bg-[#5F3AFC] py-1 rounded-3xl px-5 mt-6">
                 13Listing
               </button>
             </div>
           </div>
           <div className="relative">
-            <img
-              src={h3}
-              alt="5"
-              className="h-[40vh] w-full contrast-100"
-            />{" "}
+            <img src={h3} alt="5" className="h-[40vh] w-full contrast-100" />{" "}
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <p className="text-white text-2xl font-bold text-center">
                 Balcony
@@ -140,7 +130,7 @@ const HomeStyle03 = () => {
         <Aboutus />
       </div>
       {/* FEATURES */}
-      <div className="md:px-[2rem] px-[1rem] p-2 py-10">
+      <div className="md:px-[2rem] lg:px-[2rem] xl:px-36 px-[1rem] p-2 py-10">
         <div className="flex flex-col items-center justify-center ">
           <div className="bg-white px-3 py-1 border-b-8 border-l-8 border-[#5f3afc] w-36 half-top-border">
             <h2 className="text-sm md:text-xl text-[#0B2B3c] mt-2 font-bold">
@@ -152,14 +142,14 @@ const HomeStyle03 = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 md:mt-10 ">
-        <div className="flex flex-col p-10 hover:border-b-4 hover:border-[#5f3afc] hover:scale-105 transition duration-300">
-          <img src={home} alt="home" className="h-16 w-16 mt-2" />
-          <h1 className="font-bold py-4">Smart Living</h1>
-          <p className="text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore.
-          </p>
-        </div>
+          <div className="flex flex-col p-10 hover:border-b-4 hover:border-[#5f3afc] hover:scale-105 transition duration-300">
+            <img src={home} alt="home" className="h-16 w-16 mt-2" />
+            <h1 className="font-bold py-4">Smart Living</h1>
+            <p className="text-sm text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </p>
+          </div>
 
           <div className="flex flex-col p-5 hover:border-b-4 hover:border-[#5f3afc] hover:scale-105 transition duration-300">
             <img src={ECO} alt="home" className="w-16 mt-2" />
@@ -170,7 +160,7 @@ const HomeStyle03 = () => {
             </p>
           </div>
           <div className="flex flex-col p-5 hover:border-b-4 hover:border-[#5f3afc] hover:scale-105 transition duration-300">
-            <img src={storage}alt="home" className="w-16 mt-2" />
+            <img src={storage} alt="home" className="w-16 mt-2" />
             <h1 className="font-bold py-4">Atractive Location</h1>
             <p className="text-sm text-gray-500">
               Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do
